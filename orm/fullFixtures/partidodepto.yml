@@ -1,0 +1,1149 @@
+PartidoDepto:
+  PartidoDepto_1:
+    descripcion: AZUL
+  PartidoDepto_2:
+    descripcion: PUAN
+  PartidoDepto_3:
+    descripcion: 'LA MATANZA'
+  PartidoDepto_4:
+    descripcion: TIGRE
+  PartidoDepto_5:
+    descripcion: '25 DE MAYO'
+  PartidoDepto_6:
+    descripcion: 'TRENQUE LAUQUEN'
+  PartidoDepto_7:
+    descripcion: '9 DE JULIO'
+  PartidoDepto_8:
+    descripcion: LANUS
+  PartidoDepto_9:
+    descripcion: 'LA PLATA'
+  PartidoDepto_10:
+    descripcion: MONTE
+  PartidoDepto_11:
+    descripcion: PEHUAJO
+  PartidoDepto_12:
+    descripcion: 'SAN ISIDRO'
+  PartidoDepto_13:
+    descripcion: PERGAMINO
+  PartidoDepto_14:
+    descripcion: ALBERTI
+  PartidoDepto_15:
+    descripcion: CHASCOMUS
+  PartidoDepto_16:
+    descripcion: 'ESTEBAN ECHEVERRIA'
+  PartidoDepto_17:
+    descripcion: MERCEDES
+  PartidoDepto_18:
+    descripcion: 'BAHIA BLANCA'
+  PartidoDepto_19:
+    descripcion: MERLO
+  PartidoDepto_20:
+    descripcion: JUNIN
+  PartidoDepto_21:
+    descripcion: GUAMINI
+  PartidoDepto_22:
+    descripcion: LUJAN
+  PartidoDepto_23:
+    descripcion: 'LEANDRO N.ALEM'
+  PartidoDepto_24:
+    descripcion: MATANZA
+  PartidoDepto_25:
+    descripcion: 'GENERAL PAZ'
+  PartidoDepto_26:
+    descripcion: 'SAN VICENTE'
+  PartidoDepto_27:
+    descripcion: CAÑUELAS
+  PartidoDepto_28:
+    descripcion: 'ALMIRANTE BROWN'
+  PartidoDepto_29:
+    descripcion: 'CNL.DE MARINA  L.ROSALES'
+  PartidoDepto_30:
+    descripcion: BARADERO
+  PartidoDepto_31:
+    descripcion: SAAVEDRA
+  PartidoDepto_32:
+    descripcion: BRANDSEN
+  PartidoDepto_33:
+    descripcion: 'GENERAL SARMIENTO'
+  PartidoDepto_34:
+    descripcion: TAPALQUE
+  PartidoDepto_35:
+    descripcion: SALADILLO
+  PartidoDepto_36:
+    descripcion: MAGDALENA
+  PartidoDepto_37:
+    descripcion: 'GONZALES CHAVES'
+  PartidoDepto_38:
+    descripcion: 'GENERAL PINTO'
+  PartidoDepto_39:
+    descripcion: NAVARRO
+  PartidoDepto_40:
+    descripcion: DAIREAUX
+  PartidoDepto_41:
+    descripcion: LOBOS
+  PartidoDepto_42:
+    descripcion: 'CORONEL DORREGO'
+  PartidoDepto_43:
+    descripcion: 'ADOLFO ALSINA'
+  PartidoDepto_44:
+    descripcion: COLON
+  PartidoDepto_45:
+    descripcion: 'GENERAL ARENALES'
+  PartidoDepto_46:
+    descripcion: LINCOLN
+  PartidoDepto_47:
+    descripcion: VILLARINO
+  PartidoDepto_48:
+    descripcion: 'VICENTE LOPEZ'
+  PartidoDepto_49:
+    descripcion: 'BARTOLOME MITRE'
+  PartidoDepto_50:
+    descripcion: 'EXALTACION DE LA CRUZ'
+  PartidoDepto_51:
+    descripcion: SALTO
+  PartidoDepto_52:
+    descripcion: BRAGADO
+  PartidoDepto_53:
+    descripcion: ZARATE
+  PartidoDepto_54:
+    descripcion: AVELLANEDA
+  PartidoDepto_55:
+    descripcion: AYACUCHO
+  PartidoDepto_56:
+    descripcion: 'SAN ANDRES DE GILES'
+  PartidoDepto_57:
+    descripcion: TANDIL
+  PartidoDepto_58:
+    descripcion: RIVADAVIA
+  PartidoDepto_59:
+    descripcion: PATAGONES
+  PartidoDepto_60:
+    descripcion: GRL.VIAMONTE
+  PartidoDepto_61:
+    descripcion: 'CNL.DE MARINA LEONARDO ROSALES'
+  PartidoDepto_62:
+    descripcion: BALCARCE
+  PartidoDepto_63:
+    descripcion: 'TRES ARROYOS'
+  PartidoDepto_64:
+    descripcion: 'GENERAL VILLEGAS'
+  PartidoDepto_65:
+    descripcion: 'LOMAS DE ZAMORA'
+  PartidoDepto_66:
+    descripcion: BERISSO
+  PartidoDepto_67:
+    descripcion: JUAREZ
+  PartidoDepto_68:
+    descripcion: GRL.PUEYRREDON
+  PartidoDepto_69:
+    descripcion: 'CORONEL SUAREZ'
+  PartidoDepto_70:
+    descripcion: ESCOBAR
+  PartidoDepto_71:
+    descripcion: 'CARLOS CASARES'
+  PartidoDepto_72:
+    descripcion: CHIVILCOY
+  PartidoDepto_73:
+    descripcion: BERAZATEGUI
+  PartidoDepto_74:
+    descripcion: QUILMES
+  PartidoDepto_75:
+    descripcion: TORQUINST
+  PartidoDepto_76:
+    descripcion: '3 DE FEBRERO'
+  PartidoDepto_77:
+    descripcion: OLAVARRIA
+  PartidoDepto_78:
+    descripcion: PELLEGRINI
+  PartidoDepto_79:
+    descripcion: 'GENERAL BELGANO'
+  PartidoDepto_80:
+    descripcion: 'FLORENCIO VARELA'
+  PartidoDepto_81:
+    descripcion: SALLIQUELO
+  PartidoDepto_82:
+    descripcion: 'CNL.DE MARINA L.ROSALES'
+  PartidoDepto_83:
+    descripcion: 'MAR CHIQUITA'
+  PartidoDepto_84:
+    descripcion: 'GENERAL PUEYRREDON'
+  PartidoDepto_85:
+    descripcion: CAMPANA
+  PartidoDepto_86:
+    descripcion: GRL.SARMIENTO
+  PartidoDepto_87:
+    descripcion: ROJAS
+  PartidoDepto_88:
+    descripcion: SARMIENTO
+  PartidoDepto_89:
+    descripcion: 'CARMEN DE ARECO'
+  PartidoDepto_90:
+    descripcion: PILA
+  PartidoDepto_91:
+    descripcion: 'TRES DE FEBRERO'
+  PartidoDepto_92:
+    descripcion: MORON
+  PartidoDepto_93:
+    descripcion: CASTELLI
+  PartidoDepto_94:
+    descripcion: CHACABUCO
+  PartidoDepto_95:
+    descripcion: 'GENERAL VIAMONTE'
+  PartidoDepto_96:
+    descripcion: RAUCH
+  PartidoDepto_97:
+    descripcion: 'GENERAL BELGRANO'
+  PartidoDepto_98:
+    descripcion: TORNQUIST
+  PartidoDepto_99:
+    descripcion: NECOCHEA
+  PartidoDepto_100:
+    descripcion: 'MARCOS PAZ'
+  PartidoDepto_101:
+    descripcion: 'CARLOS TEJEDOR'
+  PartidoDepto_102:
+    descripcion: 'SAN PEDRO'
+  PartidoDepto_103:
+    descripcion: 'GENERAL ALVARADO'
+  PartidoDepto_104:
+    descripcion: 'SAN NICOLAS'
+  PartidoDepto_105:
+    descripcion: 'HIPOLITO YRIGOYEN'
+  PartidoDepto_106:
+    descripcion: 'LAS FLORES'
+  PartidoDepto_107:
+    descripcion: 'CORONEL PRINGLES'
+  PartidoDepto_108:
+    descripcion: 'GENERAL SAN MARTIN'
+  PartidoDepto_109:
+    descripcion: 'BENITO JUAREZ'
+  PartidoDepto_110:
+    descripcion: 'SAN CAYETANO'
+  PartidoDepto_111:
+    descripcion: 'ADOLFO GONZALES CHAVES'
+  PartidoDepto_112:
+    descripcion: DOLORES
+  PartidoDepto_113:
+    descripcion: 'SAN ANTONIO'
+  PartidoDepto_114:
+    descripcion: LOBERIA
+  PartidoDepto_115:
+    descripcion: RAMALLO
+  PartidoDepto_116:
+    descripcion: 'GENERAL ALVEAR'
+  PartidoDepto_117:
+    descripcion: ENSENADA
+  PartidoDepto_118:
+    descripcion: TORDILLO
+  PartidoDepto_119:
+    descripcion: 'GENERAL GUIDO'
+  PartidoDepto_120:
+    descripcion: 'GENERAL LAS HERAS'
+  PartidoDepto_121:
+    descripcion: 'GENERAL JUAN MADARIAGA'
+  PartidoDepto_122:
+    descripcion: 'GENERAL LA MADRID'
+  PartidoDepto_123:
+    descripcion: 'GENERAL LAVALLE'
+  PartidoDepto_124:
+    descripcion: 'GENERAL RODRIGUEZ'
+  PartidoDepto_125:
+    descripcion: 'GENERAL VLLEGAS'
+  PartidoDepto_126:
+    descripcion: 'ADOLFO GONZALEZ CHAVES'
+  PartidoDepto_127:
+    descripcion: 'CORONEL DE MARINA L.ROSALES'
+  PartidoDepto_128:
+    descripcion: BOLIVAR
+  PartidoDepto_129:
+    descripcion: 'SAN FERNANDO'
+  PartidoDepto_130:
+    descripcion: 'CAPITAN SARMIENTO'
+  PartidoDepto_131:
+    descripcion: 'ROQUE PEREZ'
+  PartidoDepto_132:
+    descripcion: MORENO
+  PartidoDepto_133:
+    descripcion: LAPRIDA
+  PartidoDepto_134:
+    descripcion: MAIPU
+  PartidoDepto_135:
+    descripcion: ECHEVERRIA
+  PartidoDepto_136:
+    descripcion: PILAR
+  PartidoDepto_137:
+    descripcion: 'CORONEL DE MARINA L. ROSALES'
+  PartidoDepto_138:
+    descripcion: SUIPACHA
+  PartidoDepto_139:
+    descripcion: 'SAN ANTONIO DE ARECO'
+  PartidoDepto_140:
+    descripcion: BARAZATEGUI
+  PartidoDepto_141:
+    descripcion: ALSINA
+  PartidoDepto_142:
+    descripcion: 'LEANDRO N. ELEM'
+  PartidoDepto_143:
+    descripcion: 'GRL.SAN MARTIN'
+  PartidoDepto_144:
+    descripcion: CORONEL
+  PartidoDepto_145:
+    descripcion: CAPAYAN
+  PartidoDepto_146:
+    descripcion: ANDALGALA
+  PartidoDepto_147:
+    descripcion: 'EL ALTO'
+  PartidoDepto_148:
+    descripcion: 'SANTA ROSA'
+  PartidoDepto_149:
+    descripcion: ANCASTI
+  PartidoDepto_150:
+    descripcion: PACLIN
+  PartidoDepto_151:
+    descripcion: 'SANTA MARIA'
+  PartidoDepto_152:
+    descripcion: TINOGASTA
+  PartidoDepto_153:
+    descripcion: 'LA PAZ'
+  PartidoDepto_154:
+    descripcion: 'VALLE VIEJO'
+  PartidoDepto_155:
+    descripcion: 'ANTOFAGASTA DE LA SIERRA'
+  PartidoDepto_156:
+    descripcion: BELEN
+  PartidoDepto_157:
+    descripcion: CAPITAL
+  PartidoDepto_158:
+    descripcion: 'FRAY MAMERTO ESQUIU'
+  PartidoDepto_159:
+    descripcion: POMAN
+  PartidoDepto_160:
+    descripcion: AMBATO
+  PartidoDepto_161:
+    descripcion: INDEPENDENCIA
+  PartidoDepto_162:
+    descripcion: 'SAN FERNANDO'
+  PartidoDepto_163:
+    descripcion: 'PRIMERO DE MAYO'
+  PartidoDepto_164:
+    descripcion: 'FRAY JUSTO SANTA MARIA DE ORO'
+  PartidoDepto_165:
+    descripcion: 'SARGENTO CABRAL'
+  PartidoDepto_166:
+    descripcion: 'GENERAL GUEMES'
+  PartidoDepto_167:
+    descripcion: TAPENAGA
+  PartidoDepto_168:
+    descripcion: CHACABUCO
+  PartidoDepto_169:
+    descripcion: 'LIBERTADOR GRL.SAN MARTIN'
+  PartidoDepto_170:
+    descripcion: '25 DE MAYO'
+  PartidoDepto_171:
+    descripcion: '12 DE OCTUBRE'
+  PartidoDepto_172:
+    descripcion: 'COMANDANTE FERNANDEZ'
+  PartidoDepto_173:
+    descripcion: QUITILIPI
+  PartidoDepto_174:
+    descripcion: 'MAYOR LUIS J.FONTANA'
+  PartidoDepto_175:
+    descripcion: LIBERTAD
+  PartidoDepto_176:
+    descripcion: BERMEJO
+  PartidoDepto_177:
+    descripcion: 'ALMIRANTE BROWN'
+  PartidoDepto_178:
+    descripcion: 'MEYOR LUIS J.FONTANA'
+  PartidoDepto_179:
+    descripcion: 'GENERAL BELGRANO'
+  PartidoDepto_180:
+    descripcion: 'LIBERTADOR GRL. SAN MARTIN'
+  PartidoDepto_181:
+    descripcion: 'GENERAL DONOVAN'
+  PartidoDepto_182:
+    descripcion: 'SAN LORENZO'
+  PartidoDepto_183:
+    descripcion: 'LEBERTADOR GRL.SAN MARTIN'
+  PartidoDepto_184:
+    descripcion: MAIPU
+  PartidoDepto_185:
+    descripcion: 'O''HIGGINS'
+  PartidoDepto_186:
+    descripcion: '9 DE JULIO'
+  PartidoDepto_187:
+    descripcion: 'LIBERTADOR SAN MARTIN'
+  PartidoDepto_188:
+    descripcion: 'RIO SENGUERR'
+  PartidoDepto_189:
+    descripcion: MARTIRES
+  PartidoDepto_190:
+    descripcion: ESCALANTE
+  PartidoDepto_191:
+    descripcion: GAIMAN
+  PartidoDepto_192:
+    descripcion: SARMIENTO
+  PartidoDepto_193:
+    descripcion: CUSHAMEN
+  PartidoDepto_194:
+    descripcion: 'FLORENTINO AMEGHINO'
+  PartidoDepto_195:
+    descripcion: 'PASO DE INDIOS'
+  PartidoDepto_196:
+    descripcion: TELSEN
+  PartidoDepto_197:
+    descripcion: LANGUIÑEO
+  PartidoDepto_198:
+    descripcion: GASTRE
+  PartidoDepto_199:
+    descripcion: FUTALEUFU
+  PartidoDepto_200:
+    descripcion: TEHUELCHES
+  PartidoDepto_201:
+    descripcion: RAWSON
+  PartidoDepto_202:
+    descripcion: BIEDMA
+  PartidoDepto_203:
+    descripcion: 'RIO CUARTO'
+  PartidoDepto_204:
+    descripcion: TOTORAL
+  PartidoDepto_205:
+    descripcion: COLON
+  PartidoDepto_206:
+    descripcion: MINAS
+  PartidoDepto_207:
+    descripcion: PUNILLA
+  PartidoDepto_208:
+    descripcion: 'JUAREZ CELMAN'
+  PartidoDepto_209:
+    descripcion: 'MARCOS JUAREZ'
+  PartidoDepto_210:
+    descripcion: 'SAN JUSTO'
+  PartidoDepto_211:
+    descripcion: 'TERCERO ARRIBA'
+  PartidoDepto_212:
+    descripcion: 'RIO SECO'
+  PartidoDepto_213:
+    descripcion: CAPITAL
+  PartidoDepto_214:
+    descripcion: 'SANTA MARIA'
+  PartidoDepto_215:
+    descripcion: 'SAN ALBERTO'
+  PartidoDepto_216:
+    descripcion: UNION
+  PartidoDepto_217:
+    descripcion: POCHO
+  PartidoDepto_218:
+    descripcion: CALAMUCHITA
+  PartidoDepto_219:
+    descripcion: ISCHILIN
+  PartidoDepto_220:
+    descripcion: 'GENERAL SAN MARTIN'
+  PartidoDepto_221:
+    descripcion: 'RIO PRIMERO'
+  PartidoDepto_222:
+    descripcion: 'CRUZ DEL EJE'
+  PartidoDepto_223:
+    descripcion: GRL.ROCA
+  PartidoDepto_224:
+    descripcion: 'GENERAL ROCA'
+  PartidoDepto_225:
+    descripcion: SOBREMONTE
+  PartidoDepto_226:
+    descripcion: 'RIO SEGUNDO'
+  PartidoDepto_227:
+    descripcion: TULUMBA
+  PartidoDepto_228:
+    descripcion: 'SAN JAVIER'
+  PartidoDepto_229:
+    descripcion: 'PRESIDENTE ROQUE SAEZ PEÑA'
+  PartidoDepto_230:
+    descripcion: 'PRESIDENTE ROQUE SAENZ PEÑA'
+  PartidoDepto_231:
+    descripcion: ''
+  PartidoDepto_232:
+    descripcion: 'CRUZ DE EJE'
+  PartidoDepto_233:
+    descripcion: 'CORONEL PRINGLES'
+  PartidoDepto_234:
+    descripcion: 'RIO TERCERO'
+  PartidoDepto_235:
+    descripcion: CVALAMUCHITA
+  PartidoDepto_236:
+    descripcion: 'SAN ROQUE'
+  PartidoDepto_237:
+    descripcion: 'MONTE CASEROS'
+  PartidoDepto_238:
+    descripcion: 'GENERAL ALVEAR'
+  PartidoDepto_239:
+    descripcion: 'CURUZU CUATIA'
+  PartidoDepto_240:
+    descripcion: 'SAN MARTIN'
+  PartidoDepto_241:
+    descripcion: MERCEDES
+  PartidoDepto_242:
+    descripcion: SALADAS
+  PartidoDepto_243:
+    descripcion: ITUZAINGO
+  PartidoDepto_244:
+    descripcion: 'BERON DE ASTRADA'
+  PartidoDepto_245:
+    descripcion: 'BELLA VISTA'
+  PartidoDepto_246:
+    descripcion: 'SAN LUIS DEL PALMAR'
+  PartidoDepto_247:
+    descripcion: CAPITAL
+  PartidoDepto_248:
+    descripcion: LAVALLE
+  PartidoDepto_249:
+    descripcion: 'PASO DE LOS LIBRES'
+  PartidoDepto_250:
+    descripcion: GOYA
+  PartidoDepto_251:
+    descripcion: EMPEDRADO
+  PartidoDepto_252:
+    descripcion: SAUCE
+  PartidoDepto_253:
+    descripcion: 'GENERAL PAZ'
+  PartidoDepto_254:
+    descripcion: 'SANTO TOME'
+  PartidoDepto_255:
+    descripcion: 'SAN MIGUEL'
+  PartidoDepto_256:
+    descripcion: CONCEPCION
+  PartidoDepto_257:
+    descripcion: ESQUINA
+  PartidoDepto_258:
+    descripcion: 'SAN COSME'
+  PartidoDepto_259:
+    descripcion: ITATI
+  PartidoDepto_260:
+    descripcion: MBURUCUYA
+  PartidoDepto_261:
+    descripcion: URUGUAY
+  PartidoDepto_262:
+    descripcion: NOGOYA
+  PartidoDepto_263:
+    descripcion: TALA
+  PartidoDepto_264:
+    descripcion: GUALEGUAY
+  PartidoDepto_265:
+    descripcion: DIAMANTE
+  PartidoDepto_266:
+    descripcion: PARANA
+  PartidoDepto_267:
+    descripcion: GUALEGUAYCHU
+  PartidoDepto_268:
+    descripcion: COLON
+  PartidoDepto_269:
+    descripcion: VICTORIA
+  PartidoDepto_270:
+    descripcion: VILLAGUAY
+  PartidoDepto_271:
+    descripcion: FELICIANO
+  PartidoDepto_272:
+    descripcion: CONCORDIA
+  PartidoDepto_273:
+    descripcion: 'LA PAZ'
+  PartidoDepto_274:
+    descripcion: FEDERACION
+  PartidoDepto_275:
+    descripcion: FEDERAL
+  PartidoDepto_276:
+    descripcion: CASTELLANOS
+  PartidoDepto_277:
+    descripcion: PILAGAS
+  PartidoDepto_278:
+    descripcion: PATIÑO
+  PartidoDepto_279:
+    descripcion: PILCOMAYO
+  PartidoDepto_280:
+    descripcion: BERMEJO
+  PartidoDepto_281:
+    descripcion: PIRANE
+  PartidoDepto_282:
+    descripcion: FORMOSA
+  PartidoDepto_283:
+    descripcion: MATACOS
+  PartidoDepto_284:
+    descripcion: 'RAMON LISTA'
+  PartidoDepto_285:
+    descripcion: PILLAGAS
+  PartidoDepto_286:
+    descripcion: LAISHI
+  PartidoDepto_287:
+    descripcion: LEDESMA
+  PartidoDepto_288:
+    descripcion: COCHINOCA
+  PartidoDepto_289:
+    descripcion: 'EL CARMEN'
+  PartidoDepto_290:
+    descripcion: TUMBAYA
+  PartidoDepto_291:
+    descripcion: CAPITAL
+  PartidoDepto_292:
+    descripcion: YAVI
+  PartidoDepto_293:
+    descripcion: HUMAHUACA
+  PartidoDepto_294:
+    descripcion: RINCONADA
+  PartidoDepto_295:
+    descripcion: 'VALLE GRANDE'
+  PartidoDepto_296:
+    descripcion: SUSQUES
+  PartidoDepto_297:
+    descripcion: 'SANTA CATALINA'
+  PartidoDepto_298:
+    descripcion: 'SAN ANTONIO'
+  PartidoDepto_299:
+    descripcion: 'SANTA BARBARA'
+  PartidoDepto_300:
+    descripcion: 'SAN PEDRO'
+  PartidoDepto_301:
+    descripcion: TILCARA
+  PartidoDepto_302:
+    descripcion: LADESMA
+  PartidoDepto_303:
+    descripcion: HUCAL
+  PartidoDepto_304:
+    descripcion: REALICO
+  PartidoDepto_305:
+    descripcion: 'MARA CO'
+  PartidoDepto_306:
+    descripcion: QUEMUQUEMU
+  PartidoDepto_307:
+    descripcion: 'CHICAL CO'
+  PartidoDepto_308:
+    descripcion: GUATRACHE
+  PartidoDepto_309:
+    descripcion: CAPITAL
+  PartidoDepto_310:
+    descripcion: CALEUCALEU
+  PartidoDepto_311:
+    descripcion: TRENEL
+  PartidoDepto_312:
+    descripcion: UTRACAN
+  PartidoDepto_313:
+    descripcion: ATREUCO
+  PartidoDepto_314:
+    descripcion: TOAY
+  PartidoDepto_315:
+    descripcion: CHAPADLEUFU
+  PartidoDepto_316:
+    descripcion: CONELO
+  PartidoDepto_317:
+    descripcion: PUELEN
+  PartidoDepto_318:
+    descripcion: RANCUL
+  PartidoDepto_319:
+    descripcion: 'QUEMU QUEMU'
+  PartidoDepto_320:
+    descripcion: LOVENTUE
+  PartidoDepto_321:
+    descripcion: CONHELO
+  PartidoDepto_322:
+    descripcion: CATRILO
+  PartidoDepto_323:
+    descripcion: CHAPALEUFU
+  PartidoDepto_324:
+    descripcion: ULTRACAN
+  PartidoDepto_325:
+    descripcion: CHALILEO
+  PartidoDepto_326:
+    descripcion: 'LIHUEL CALEL'
+  PartidoDepto_327:
+    descripcion: MARACO
+  PartidoDepto_328:
+    descripcion: 'CALEU CALEU'
+  PartidoDepto_329:
+    descripcion: CURACO
+  PartidoDepto_330:
+    descripcion: 'LIMAY MAHUIDA'
+  PartidoDepto_331:
+    descripcion: 'CASTRO BARROS'
+  PartidoDepto_332:
+    descripcion: 'GENERAL SAN MARTIN'
+  PartidoDepto_333:
+    descripcion: 'GENERAL LAVALLE'
+  PartidoDepto_334:
+    descripcion: ARAUCO
+  PartidoDepto_335:
+    descripcion: 'GRAL.ANGEL V.PEÑALOZA'
+  PartidoDepto_336:
+    descripcion: 'SAN BLAS DE LOS SAUCES'
+  PartidoDepto_337:
+    descripcion: INDEPENDENCIA
+  PartidoDepto_338:
+    descripcion: 'GENERAL OCAMPO'
+  PartidoDepto_339:
+    descripcion: CHILECITO
+  PartidoDepto_340:
+    descripcion: FAMATINA
+  PartidoDepto_341:
+    descripcion: 'GRL.JUAN FACUNDO QUIROGA'
+  PartidoDepto_342:
+    descripcion: 'GRL.ANGEL V. PEÑALOZA'
+  PartidoDepto_343:
+    descripcion: 'GENERAL BELGRANO'
+  PartidoDepto_344:
+    descripcion: 'GENERAL SARMIENTO'
+  PartidoDepto_345:
+    descripcion: CAPITAL
+  PartidoDepto_346:
+    descripcion: 'GDOR. GORDILLO'
+  PartidoDepto_347:
+    descripcion: 'GENERAL ANGEL VICENTE PE�ALOZA'
+  PartidoDepto_348:
+    descripcion: 'GOBERNADOR GORDILLO'
+  PartidoDepto_349:
+    descripcion: 'ROSARIO VERA PE�ALOZA'
+  PartidoDepto_350:
+    descripcion: 'GRL.SAN MARTIN'
+  PartidoDepto_351:
+    descripcion: 'GENERAL LA MADRID'
+  PartidoDepto_352:
+    descripcion: 'GENERAL JUAN FACUNDO QUIROGA'
+  PartidoDepto_353:
+    descripcion: GENERALOCAMPO
+  PartidoDepto_354:
+    descripcion: SANAGASTA
+  PartidoDepto_355:
+    descripcion: 'SAN RAFAEL'
+  PartidoDepto_356:
+    descripcion: LUJAN
+  PartidoDepto_357:
+    descripcion: MALARGUE
+  PartidoDepto_358:
+    descripcion: GUAYMALLEN
+  PartidoDepto_359:
+    descripcion: LAVALLE
+  PartidoDepto_360:
+    descripcion: JUNIN
+  PartidoDepto_361:
+    descripcion: TUPUNGATO
+  PartidoDepto_362:
+    descripcion: RIVADAVIA
+  PartidoDepto_363:
+    descripcion: MAIPU
+  PartidoDepto_364:
+    descripcion: 'GODOY CRUZ'
+  PartidoDepto_365:
+    descripcion: 'GENERAL ALVEAR'
+  PartidoDepto_366:
+    descripcion: 'LA PAZ'
+  PartidoDepto_367:
+    descripcion: TUNUYAN
+  PartidoDepto_368:
+    descripcion: 'SAN CARLOS'
+  PartidoDepto_369:
+    descripcion: 'LAS HERAS'
+  PartidoDepto_370:
+    descripcion: 'LUJAN DE CUYO'
+  PartidoDepto_371:
+    descripcion: 'SAN MARTIN'
+  PartidoDepto_372:
+    descripcion: 'SANTA ROSA'
+  PartidoDepto_373:
+    descripcion: CAPITAL
+  PartidoDepto_374:
+    descripcion: '25 DE MAYO'
+  PartidoDepto_375:
+    descripcion: IGUAZU
+  PartidoDepto_376:
+    descripcion: 'EL DORADO'
+  PartidoDepto_377:
+    descripcion: 'LEANDRO N. ALEM'
+  PartidoDepto_378:
+    descripcion: APOSTOLES
+  PartidoDepto_379:
+    descripcion: CAINGUAS
+  PartidoDepto_380:
+    descripcion: 'LEANDRO N.ALEM'
+  PartidoDepto_381:
+    descripcion: CONCEPCION
+  PartidoDepto_382:
+    descripcion: 'SAN PEDRO'
+  PartidoDepto_383:
+    descripcion: CANDELARIA
+  PartidoDepto_384:
+    descripcion: 'GRL.MANUEL BELGRANO'
+  PartidoDepto_385:
+    descripcion: OBERA
+  PartidoDepto_386:
+    descripcion: 'LIBERTADOR GRL.SAN MARTIN'
+  PartidoDepto_387:
+    descripcion: 'SAN IGNACIO'
+  PartidoDepto_388:
+    descripcion: MONTECARLO
+  PartidoDepto_389:
+    descripcion: 'GENERAL MANUEL BELGRANO'
+  PartidoDepto_390:
+    descripcion: 'LEBERTADOR GRL.SAN MARTIN'
+  PartidoDepto_391:
+    descripcion: 'EL GUARANI'
+  PartidoDepto_392:
+    descripcion: ELDORADO
+  PartidoDepto_393:
+    descripcion: CAPITAL
+  PartidoDepto_394:
+    descripcion: GUARANI
+  PartidoDepto_395:
+    descripcion: 'SAN JAVIER'
+  PartidoDepto_396:
+    descripcion: 'LIBERTADOR GRL. SAN MARTIN'
+  PartidoDepto_397:
+    descripcion: 'COLLON CURA'
+  PartidoDepto_398:
+    descripcion: ALUMINE
+  PartidoDepto_399:
+    descripcion: MINAS
+  PartidoDepto_400:
+    descripcion: AÑELO
+  PartidoDepto_401:
+    descripcion: CONFLUENCIA
+  PartidoDepto_402:
+    descripcion: 'CHOS MALAL'
+  PartidoDepto_403:
+    descripcion: PICUNCHES
+  PartidoDepto_404:
+    descripcion: NORQUIN
+  PartidoDepto_405:
+    descripcion: PEHUENCHES
+  PartidoDepto_406:
+    descripcion: LONCOPUE
+  PartidoDepto_407:
+    descripcion: HUILICHES
+  PartidoDepto_408:
+    descripcion: ZAPALA
+  PartidoDepto_409:
+    descripcion: 'CATAN LIL'
+  PartidoDepto_410:
+    descripcion: ÑORQUIN
+  PartidoDepto_411:
+    descripcion: 'LOS LAGOS'
+  PartidoDepto_412:
+    descripcion: 'PICUN LEUFU'
+  PartidoDepto_413:
+    descripcion: LACAR
+  PartidoDepto_414:
+    descripcion: ÑOEQUIN
+  PartidoDepto_415:
+    descripcion: VALCHETA
+  PartidoDepto_416:
+    descripcion: '25 DE MAYO'
+  PartidoDepto_417:
+    descripcion: 'EL CUY'
+  PartidoDepto_418:
+    descripcion: ÑORQUINCO
+  PartidoDepto_419:
+    descripcion: 'GENERAL ROCA'
+  PartidoDepto_420:
+    descripcion: AVELLANEDA
+  PartidoDepto_421:
+    descripcion: CONESA
+  PartidoDepto_422:
+    descripcion: 'PICHI MAHUIDA'
+  PartidoDepto_423:
+    descripcion: 'SAN ANTONIO'
+  PartidoDepto_424:
+    descripcion: PILCANIYEU
+  PartidoDepto_425:
+    descripcion: '9 DE JULIO'
+  PartidoDepto_426:
+    descripcion: 'ADOLFO ALSINA'
+  PartidoDepto_427:
+    descripcion: BARILOCHE
+  PartidoDepto_428:
+    descripcion: 'PIHI MAHUIDA'
+  PartidoDepto_429:
+    descripcion: 'LA VI�A'
+  PartidoDepto_430:
+    descripcion: 'SAN MARTIN'
+  PartidoDepto_431:
+    descripcion: ORAN
+  PartidoDepto_432:
+    descripcion: ANTA
+  PartidoDepto_433:
+    descripcion: 'GRAL.JOSE DE SAN MARTIN'
+  PartidoDepto_434:
+    descripcion: GUACHIPAS
+  PartidoDepto_435:
+    descripcion: 'ROSARIO DE LA FRONTERA'
+  PartidoDepto_436:
+    descripcion: RIVADAVIA
+  PartidoDepto_437:
+    descripcion: METAN
+  PartidoDepto_438:
+    descripcion: 'SAN CARLOS'
+  PartidoDepto_439:
+    descripcion: GRL.GUEMES
+  PartidoDepto_440:
+    descripcion: CACHI
+  PartidoDepto_441:
+    descripcion: 'ROSARIO DE LERMA'
+  PartidoDepto_442:
+    descripcion: CAFAYATE
+  PartidoDepto_443:
+    descripcion: 'LOS ANDES'
+  PartidoDepto_444:
+    descripcion: 'GRL.JOSE DE SAN MARTIN'
+  PartidoDepto_445:
+    descripcion: CAPITAL
+  PartidoDepto_446:
+    descripcion: 'GRL.SAN MARTIN'
+  PartidoDepto_447:
+    descripcion: 'GENERAL GUEMES'
+  PartidoDepto_448:
+    descripcion: CERRILLOS
+  PartidoDepto_449:
+    descripcion: CHICOANA
+  PartidoDepto_450:
+    descripcion: 'LA POMA'
+  PartidoDepto_451:
+    descripcion: 'LA CAPITAL'
+  PartidoDepto_452:
+    descripcion: CANDELARIA
+  PartidoDepto_453:
+    descripcion: ROSARIO
+  PartidoDepto_454:
+    descripcion: IRUYA
+  PartidoDepto_455:
+    descripcion: 'LA CALDERA'
+  PartidoDepto_456:
+    descripcion: 'LOA ANDES'
+  PartidoDepto_457:
+    descripcion: MOLINOS
+  PartidoDepto_458:
+    descripcion: 'SANTA VICTORIA'
+  PartidoDepto_459:
+    descripcion: '9 DE JULIO'
+  PartidoDepto_460:
+    descripcion: JACHAL
+  PartidoDepto_461:
+    descripcion: ALBARDON
+  PartidoDepto_462:
+    descripcion: '25 DE MAYO'
+  PartidoDepto_463:
+    descripcion: 'SANTA LUCIA'
+  PartidoDepto_464:
+    descripcion: ANGACO
+  PartidoDepto_465:
+    descripcion: IGLESIA
+  PartidoDepto_466:
+    descripcion: 'VALLE FERTIL'
+  PartidoDepto_467:
+    descripcion: CALINGASTA
+  PartidoDepto_468:
+    descripcion: RIVADAVIA
+  PartidoDepto_469:
+    descripcion: CAUCETE
+  PartidoDepto_470:
+    descripcion: SARMIENTO
+  PartidoDepto_471:
+    descripcion: POCITO
+  PartidoDepto_472:
+    descripcion: 'SAN MARTIN'
+  PartidoDepto_473:
+    descripcion: CHIMBAS
+  PartidoDepto_474:
+    descripcion: IGLESIAS
+  PartidoDepto_475:
+    descripcion: ULLUN
+  PartidoDepto_476:
+    descripcion: RAWSON
+  PartidoDepto_477:
+    descripcion: CAPITAL
+  PartidoDepto_478:
+    descripcion: ZONDA
+  PartidoDepto_479:
+    descripcion: BELGRANO
+  PartidoDepto_480:
+    descripcion: CHACABUCO
+  PartidoDepto_481:
+    descripcion: 'LA CAPITAL'
+  PartidoDepto_482:
+    descripcion: 'GOBERNADOR DUPUY'
+  PartidoDepto_483:
+    descripcion: GRL.PEDERNERA
+  PartidoDepto_484:
+    descripcion: AYACUCHO
+  PartidoDepto_485:
+    descripcion: JUNIN
+  PartidoDepto_486:
+    descripcion: 'GONERNADOR DUPUY'
+  PartidoDepto_487:
+    descripcion: 'CORONEL PRINGLES'
+  PartidoDepto_488:
+    descripcion: 'GENERAL PEDERNERA'
+  PartidoDepto_489:
+    descripcion: 'GOBERNADOR DUVAL'
+  PartidoDepto_490:
+    descripcion: IGLESIA
+  PartidoDepto_491:
+    descripcion: 'LIBERTADOR GRL. SAN MARTIN'
+  PartidoDepto_492:
+    descripcion: 'LIBERTADOR GRL.SAN MARTIN'
+  PartidoDepto_493:
+    descripcion: 'LIBERTADOR GR.SAN MARTIN'
+  PartidoDepto_494:
+    descripcion: CAUCETE
+  PartidoDepto_495:
+    descripcion: 'GUER AIKE'
+  PartidoDepto_496:
+    descripcion: DESEADO
+  PartidoDepto_497:
+    descripcion: 'RIO CHICO'
+  PartidoDepto_498:
+    descripcion: MAGALLANES
+  PartidoDepto_499:
+    descripcion: 'LAGO ARGENTINO'
+  PartidoDepto_500:
+    descripcion: 'CORPEN AIKE'
+  PartidoDepto_501:
+    descripcion: 'LAGO BUENOS AIRES'
+  PartidoDepto_502:
+    descripcion: 'GENERAL LOPEZ'
+  PartidoDepto_503:
+    descripcion: ROSARIO
+  PartidoDepto_504:
+    descripcion: 'GENERAL OBLIGADO'
+  PartidoDepto_505:
+    descripcion: CONSTITUCION
+  PartidoDepto_506:
+    descripcion: 'SAN LORENZO'
+  PartidoDepto_507:
+    descripcion: 'SAN JAVIER'
+  PartidoDepto_508:
+    descripcion: 'LA CAPITAL'
+  PartidoDepto_509:
+    descripcion: 'SAN CRISTOBAL'
+  PartidoDepto_510:
+    descripcion: IRIONDO
+  PartidoDepto_511:
+    descripcion: CASTELLANOS
+  PartidoDepto_512:
+    descripcion: 'NUEVE DE JULIO'
+  PartidoDepto_513:
+    descripcion: CASEROS
+  PartidoDepto_514:
+    descripcion: 'SAN JERONIMO'
+  PartidoDepto_515:
+    descripcion: BELGRANO
+  PartidoDepto_516:
+    descripcion: CAPITAL
+  PartidoDepto_517:
+    descripcion: 'SAN JUSTO'
+  PartidoDepto_518:
+    descripcion: GRL.OBLIGADO
+  PartidoDepto_519:
+    descripcion: 'LA CAPUTAL'
+  PartidoDepto_520:
+    descripcion: GRL.LOPEZ
+  PartidoDepto_521:
+    descripcion: VERA
+  PartidoDepto_522:
+    descripcion: '9 DE JULIO'
+  PartidoDepto_523:
+    descripcion: 'SAN MARTIN'
+  PartidoDepto_524:
+    descripcion: 'LAS COLONIAS'
+  PartidoDepto_525:
+    descripcion: GARAY
+  PartidoDepto_526:
+    descripcion: CASTELANOS
+  PartidoDepto_527:
+    descripcion: 'LAS COLINAS'
+  PartidoDepto_528:
+    descripcion: BANDA
+  PartidoDepto_529:
+    descripcion: MORENO
+  PartidoDepto_530:
+    descripcion: ALBERDI
+  PartidoDepto_531:
+    descripcion: PELLEGRINI
+  PartidoDepto_532:
+    descripcion: 'OJO DE AGUA'
+  PartidoDepto_533:
+    descripcion: 'RIO HONDO'
+  PartidoDepto_534:
+    descripcion: 'GENERAL TABOADA'
+  PartidoDepto_535:
+    descripcion: CHOYA
+  PartidoDepto_536:
+    descripcion: CAPITAL
+  PartidoDepto_537:
+    descripcion: AGUIRRE
+  PartidoDepto_538:
+    descripcion: SILIPICA
+  PartidoDepto_539:
+    descripcion: BELGRANO
+  PartidoDepto_540:
+    descripcion: FIGUEROA
+  PartidoDepto_541:
+    descripcion: SALAVINA
+  PartidoDepto_542:
+    descripcion: QUEBRACHOS
+  PartidoDepto_543:
+    descripcion: ROBLES
+  PartidoDepto_544:
+    descripcion: AVELLANEDA
+  PartidoDepto_545:
+    descripcion: JIMENEZ
+  PartidoDepto_546:
+    descripcion: ATAMISQUI
+  PartidoDepto_547:
+    descripcion: 'SAN MARTIN'
+  PartidoDepto_548:
+    descripcion: MATARA
+  PartidoDepto_549:
+    descripcion: SALAYINA
+  PartidoDepto_550:
+    descripcion: GUASAYAN
+  PartidoDepto_551:
+    descripcion: COPO
+  PartidoDepto_552:
+    descripcion: 'BRIGADIER JUAN FELIPE IBARRA'
+  PartidoDepto_553:
+    descripcion: DOBLES
+  PartidoDepto_554:
+    descripcion: SARMIENTO
+  PartidoDepto_555:
+    descripcion: LORETO
+  PartidoDepto_556:
+    descripcion: MITRE
+  PartidoDepto_557:
+    descripcion: RIVADAVIA
+  PartidoDepto_558:
+    descripcion: USHUAIA
+  PartidoDepto_559:
+    descripcion: 'ISLAS DEL ATLANTICO SUR'
+  PartidoDepto_560:
+    descripcion: 'SECTOR ANTARTICO ARGENTINO'
+  PartidoDepto_561:
+    descripcion: 'RIO GRANDE'
+  PartidoDepto_562:
+    descripcion: 'IS.DEL ATLANTICO SUR E IS.MALVINAS'
+  PartidoDepto_563:
+    descripcion: 'ANTARTIDA ARGENTINA'
+  PartidoDepto_564:
+    descripcion: BURRUYACU
+  PartidoDepto_565:
+    descripcion: TRANCAS
+  PartidoDepto_566:
+    descripcion: MONTEROS
+  PartidoDepto_567:
+    descripcion: LEALES
+  PartidoDepto_568:
+    descripcion: 'CRUZ ALTA'
+  PartidoDepto_569:
+    descripcion: 'RIO CHICO'
+  PartidoDepto_570:
+    descripcion: CHICLIGASTA
+  PartidoDepto_571:
+    descripcion: TAFI
+  PartidoDepto_572:
+    descripcion: GRANEROS
+  PartidoDepto_573:
+    descripcion: FAMAILLA
+  PartidoDepto_574:
+    descripcion: CAPITAL

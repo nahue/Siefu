@@ -1,0 +1,517 @@
+Carrera:
+  Carrera_1:
+    descripcion: ' Ciencias Biológicas'
+  Carrera_2:
+    descripcion: ' Farmacia'
+  Carrera_3:
+    descripcion: ' Religiosa'
+  Carrera_4:
+    descripcion: Actuaria
+  Carrera_5:
+    descripcion: 'Antropología Física'
+  Carrera_6:
+    descripcion: 'Antropología Social'
+  Carrera_7:
+    descripcion: Arqueología
+  Carrera_8:
+    descripcion: Arquitectura
+  Carrera_9:
+    descripcion: 'Asistente Judicial'
+  Carrera_10:
+    descripcion: 'Asistente Odontológico'
+  Carrera_11:
+    descripcion: Astronomía
+  Carrera_12:
+    descripcion: 'Auxiliar de Enfermería'
+  Carrera_13:
+    descripcion: Bibliotecología
+  Carrera_14:
+    descripcion: Bioingeniería
+  Carrera_15:
+    descripcion: 'Biología Marina'
+  Carrera_16:
+    descripcion: BioTecnología
+  Carrera_17:
+    descripcion: 'Camar�grafos y Fot�grafos'
+  Carrera_18:
+    descripcion: 'Ciencia de los Materiales'
+  Carrera_19:
+    descripcion: 'Ciencias Criminalísticas'
+  Carrera_20:
+    descripcion: 'Ciencias de la Educación'
+  Carrera_21:
+    descripcion: 'Ciencias Estadísticas'
+  Carrera_22:
+    descripcion: 'Ciencias Filosóficas'
+  Carrera_23:
+    descripcion: 'Ciencias Físicas'
+  Carrera_24:
+    descripcion: 'Ciencias Matemáticas'
+  Carrera_25:
+    descripcion: 'Ciencias Políticas'
+  Carrera_26:
+    descripcion: 'Ciencias Químicas'
+  Carrera_27:
+    descripcion: 'Cine, TV y Video'
+  Carrera_28:
+    descripcion: 'Cirugía Plástica'
+  Carrera_29:
+    descripcion: 'Comercio Internacional'
+  Carrera_30:
+    descripcion: 'Comunicación Audiovisual'
+  Carrera_31:
+    descripcion: 'Contabilidad y Auditoría'
+  Carrera_32:
+    descripcion: Coreografía
+  Carrera_33:
+    descripcion: Danza
+  Carrera_34:
+    descripcion: Derecho
+  Carrera_35:
+    descripcion: 'Dibujo Técnico'
+  Carrera_36:
+    descripcion: 'Dirección y Producción de Eventos'
+  Carrera_37:
+    descripcion: 'Diseño de Ambientes Interiores'
+  Carrera_38:
+    descripcion: 'Diseño de Vestuario y Textil'
+  Carrera_39:
+    descripcion: 'Diseño Digital'
+  Carrera_40:
+    descripcion: 'Diseño Gráfico'
+  Carrera_41:
+    descripcion: 'Diseño Industrial'
+  Carrera_42:
+    descripcion: 'Diseño Paisajista'
+  Carrera_43:
+    descripcion: 'Diseño Teatral'
+  Carrera_44:
+    descripcion: Ecología
+  Carrera_45:
+    descripcion: Economía
+  Carrera_46:
+    descripcion: 'Educación Diferencial'
+  Carrera_47:
+    descripcion: 'Educación PreEscolar'
+  Carrera_48:
+    descripcion: 'Educación Primaria'
+  Carrera_49:
+    descripcion: 'Educación Social'
+  Carrera_50:
+    descripcion: 'Ejército Oficialidad M/Estado Mayor '
+  Carrera_51:
+    descripcion: 'Ejército Oficialidad M/Ingeniería Militar '
+  Carrera_52:
+    descripcion: 'Ejército Suboficialidad '
+  Carrera_53:
+    descripcion: Enfermería
+  Carrera_54:
+    descripcion: Estática
+  Carrera_55:
+    descripcion: Fonoaudiología
+  Carrera_56:
+    descripcion: 'Fuerza Aérea Oficialidad M/Administración '
+  Carrera_57:
+    descripcion: 'Fuerza Aérea Oficialidad M/Defensa Aérea '
+  Carrera_58:
+    descripcion: 'Fuerza Aérea Oficialidad M/Ingeniería '
+  Carrera_59:
+    descripcion: 'Fuerza Aérea Oficialidad M/Operación Aeronaves '
+  Carrera_60:
+    descripcion: 'Fuerza Aérea Suboficialidad '
+  Carrera_61:
+    descripcion: Gastronomía
+  Carrera_62:
+    descripcion: Geografía
+  Carrera_63:
+    descripcion: Geología
+  Carrera_64:
+    descripcion: 'Gestión de Organizaciones de la Salud'
+  Carrera_65:
+    descripcion: 'Gestión y Administración de Ventas'
+  Carrera_66:
+    descripcion: 'Guía de Turismo'
+  Carrera_67:
+    descripcion: 'Historia del Arte'
+  Carrera_68:
+    descripcion: 'Ingeniería Acústica'
+  Carrera_69:
+    descripcion: 'Ingeniería Aeronáutica'
+  Carrera_70:
+    descripcion: 'Ingeniería Agricultura'
+  Carrera_71:
+    descripcion: 'Ingeniería Ambiental'
+  Carrera_72:
+    descripcion: 'Ingeniería Biomédica'
+  Carrera_73:
+    descripcion: 'Ingeniería Bioquímica'
+  Carrera_74:
+    descripcion: 'Ingeniería de Software'
+  Carrera_75:
+    descripcion: 'Ingeniería Electricidad'
+  Carrera_76:
+    descripcion: 'Ingeniería Electromecánica'
+  Carrera_77:
+    descripcion: 'Ingeniería Electrónica'
+  Carrera_78:
+    descripcion: 'Ingeniería en Acuicultura'
+  Carrera_79:
+    descripcion: 'Ingeniería en Alimentos'
+  Carrera_80:
+    descripcion: 'Ingeniería en Computación'
+  Carrera_81:
+    descripcion: 'Ingeniería en Construcción'
+  Carrera_82:
+    descripcion: 'Ingeniería en Geodesia'
+  Carrera_83:
+    descripcion: 'Ingeniería en Geografía'
+  Carrera_84:
+    descripcion: 'Ingeniería en Geología'
+  Carrera_85:
+    descripcion: 'Ingeniería en Maderas'
+  Carrera_86:
+    descripcion: 'Ingeniería en Metalurgia'
+  Carrera_87:
+    descripcion: 'Ingeniería en Minas'
+  Carrera_88:
+    descripcion: 'Ingeniería en Obras Civiles'
+  Carrera_89:
+    descripcion: 'Ingeniería en Petróleo'
+  Carrera_90:
+    descripcion: 'Ingeniería en Prevención de Riesgos'
+  Carrera_91:
+    descripcion: 'Ingeniería en Sonido'
+  Carrera_92:
+    descripcion: 'Ingeniería en Telecomunicaciones'
+  Carrera_93:
+    descripcion: 'Ingeniería en Topografía'
+  Carrera_94:
+    descripcion: 'Ingeniería en Transporte'
+  Carrera_95:
+    descripcion: 'Ingeniería Estadística'
+  Carrera_96:
+    descripcion: 'Ingeniería Física'
+  Carrera_97:
+    descripcion: 'Ingeniería Forestal'
+  Carrera_98:
+    descripcion: 'Ingeniería Genética'
+  Carrera_99:
+    descripcion: 'Ingeniería Industrial'
+  Carrera_100:
+    descripcion: 'Ingeniería Informática'
+  Carrera_101:
+    descripcion: 'Ingeniería Logística'
+  Carrera_102:
+    descripcion: 'Ingeniería Matemática'
+  Carrera_103:
+    descripcion: 'Ingeniería Mecánica'
+  Carrera_104:
+    descripcion: 'Ingeniería Mecánica Automotriz'
+  Carrera_105:
+    descripcion: 'Ingeniería Mecatrónica'
+  Carrera_106:
+    descripcion: 'Ingeniería Multimedia'
+  Carrera_107:
+    descripcion: 'Ingeniería Naval M/Arquitectura Naval '
+  Carrera_108:
+    descripcion: 'Ingeniería Naval M/Máquinas Marinas'
+  Carrera_109:
+    descripcion: 'Ingeniería Naval M/Transporte Marítimo '
+  Carrera_110:
+    descripcion: 'Ingeniería Pesquera'
+  Carrera_111:
+    descripcion: 'Ingeniería Química'
+  Carrera_112:
+    descripcion: 'Ingeniería Refrigeración y Climatización'
+  Carrera_113:
+    descripcion: 'Ingeniería Telemática'
+  Carrera_114:
+    descripcion: 'Ingeniería Textil'
+  Carrera_115:
+    descripcion: 'Ingeniería Topográfica'
+  Carrera_116:
+    descripcion: 'Interpretación Instrumental'
+  Carrera_117:
+    descripcion: Kinesiología
+  Carrera_118:
+    descripcion: 'Licenciatura Administración Agroindustrial'
+  Carrera_119:
+    descripcion: 'Licenciatura Administración de Aeropuertos'
+  Carrera_120:
+    descripcion: 'Licenciatura Administración de Empresas'
+  Carrera_121:
+    descripcion: 'Licenciatura Administración en Finanzas'
+  Carrera_122:
+    descripcion: 'Licenciatura Administración en Recursos Humanos'
+  Carrera_123:
+    descripcion: 'Licenciatura Administración en Turismo'
+  Carrera_124:
+    descripcion: 'Licenciatura Administración Hotelera'
+  Carrera_125:
+    descripcion: 'Licenciatura Administración Pública'
+  Carrera_126:
+    descripcion: 'Licenciatura en Arte M/Dirección Coral'
+  Carrera_127:
+    descripcion: 'Licenciatura en Arte M/Dirección Orquestal'
+  Carrera_128:
+    descripcion: 'Licenciatura en Arte M/Sonido'
+  Carrera_129:
+    descripcion: 'Licenciatura en Artes Visuales'
+  Carrera_130:
+    descripcion: 'Licenciatura en Bioquímica'
+  Carrera_131:
+    descripcion: 'Licenciatura en Cartografía'
+  Carrera_132:
+    descripcion: 'Licenciatura en Ciencias Ambientales'
+  Carrera_133:
+    descripcion: 'Licenciatura en Ciencias de la Computación'
+  Carrera_134:
+    descripcion: 'Licenciatura en Ciencias de la Familia'
+  Carrera_135:
+    descripcion: 'Licenciatura en Ciencias Geofísicas'
+  Carrera_136:
+    descripcion: 'Licenciatura en Ciencias Religiosas'
+  Carrera_137:
+    descripcion: 'Licenciatura en Comercialización'
+  Carrera_138:
+    descripcion: 'Licenciatura en Diseño'
+  Carrera_139:
+    descripcion: 'Licenciatura en Gestión Ambiental'
+  Carrera_140:
+    descripcion: 'Licenciatura en Historia'
+  Carrera_141:
+    descripcion: 'Licenciatura en Lenguas y Literatura ( en un idioma extranjero)'
+  Carrera_142:
+    descripcion: 'Licenciatura en Lenguas y Literatura Hispana'
+  Carrera_143:
+    descripcion: 'Licenciatura en Música'
+  Carrera_144:
+    descripcion: 'Licenciatura en Música M/Canto L�rico'
+  Carrera_145:
+    descripcion: 'Licenciatura en Música M/Sonido'
+  Carrera_146:
+    descripcion: 'Licenciatura en Óptica'
+  Carrera_147:
+    descripcion: 'Licenciatura en Teología'
+  Carrera_148:
+    descripcion: 'Licenciatura en Turismo'
+  Carrera_149:
+    descripcion: Lingüística
+  Carrera_150:
+    descripcion: 'Marina Oficialidad M/Administración '
+  Carrera_151:
+    descripcion: 'Marina Oficialidad M/Defensa '
+  Carrera_152:
+    descripcion: 'Marina Oficialidad M/Ingeniería '
+  Carrera_153:
+    descripcion: 'Marina Oficialidad M/Navegación '
+  Carrera_154:
+    descripcion: 'Marina Suboficialidad '
+  Carrera_155:
+    descripcion: Marketing
+  Carrera_156:
+    descripcion: Medicina
+  Carrera_157:
+    descripcion: 'Medicina Forense'
+  Carrera_158:
+    descripcion: 'Medicina Veterinaria'
+  Carrera_159:
+    descripcion: 'Mención *Otorrinolaringología'
+  Carrera_160:
+    descripcion: 'Mención Laboratorio Clínico, *Hematología  y Banco de Sangre.'
+  Carrera_161:
+    descripcion: 'Mención Morfofisiopatología y Citodiagnóstico'
+  Carrera_162:
+    descripcion: 'Mención Oftalmología'
+  Carrera_163:
+    descripcion: 'Mención Psicología Clínica'
+  Carrera_164:
+    descripcion: 'Mención Psicología Educativa'
+  Carrera_165:
+    descripcion: 'Mención Psicología Laboral y Organizacional'
+  Carrera_166:
+    descripcion: 'Mención Psicología Social'
+  Carrera_167:
+    descripcion: 'Mención Radiología y Física Médica'
+  Carrera_168:
+    descripcion: Meteorología
+  Carrera_169:
+    descripcion: 'Músico Intérprete'
+  Carrera_170:
+    descripcion: 'Nutrición y Dietética'
+  Carrera_171:
+    descripcion: 'Obstetricia y Puericultura'
+  Carrera_172:
+    descripcion: Oceanografía
+  Carrera_173:
+    descripcion: Odontología
+  Carrera_174:
+    descripcion: Oftalmología
+  Carrera_175:
+    descripcion: 'Orientación  Educativa'
+  Carrera_176:
+    descripcion: Paleontología
+  Carrera_177:
+    descripcion: Paramédico
+  Carrera_178:
+    descripcion: 'Pedagogía en Artes Plásticas'
+  Carrera_179:
+    descripcion: 'Pedagogía en Biología'
+  Carrera_180:
+    descripcion: 'Pedagogía en Contabilidad'
+  Carrera_181:
+    descripcion: 'Pedagogía en Educación Física y Deportes'
+  Carrera_182:
+    descripcion: 'Pedagogía en Educación Tecnológica'
+  Carrera_183:
+    descripcion: 'Pedagogía en Filosofía'
+  Carrera_184:
+    descripcion: 'Pedagogía en Historia y Geografía'
+  Carrera_185:
+    descripcion: 'Pedagogía en Lenguaje Español'
+  Carrera_186:
+    descripcion: 'Pedagogía en Música'
+  Carrera_187:
+    descripcion: 'Pedagogía en Química'
+  Carrera_188:
+    descripcion: 'Pedagogía Física'
+  Carrera_189:
+    descripcion: 'Pedagogía idioma extranjero'
+  Carrera_190:
+    descripcion: 'Pedagogía Informática'
+  Carrera_191:
+    descripcion: 'Pedagogía Matemática'
+  Carrera_192:
+    descripcion: Periodismo
+  Carrera_193:
+    descripcion: 'Perito Forense'
+  Carrera_194:
+    descripcion: 'Piloto Comercial'
+  Carrera_195:
+    descripcion: 'Planificación Gestión Educacional'
+  Carrera_196:
+    descripcion: 'Policía Oficialidad Administración '
+  Carrera_197:
+    descripcion: 'Policía Oficialidad Orden y Seguridad '
+  Carrera_198:
+    descripcion: 'Policía Suboficialidad '
+  Carrera_199:
+    descripcion: 'Producción Musical'
+  Carrera_200:
+    descripcion: 'Programador Analista de Sistemas'
+  Carrera_201:
+    descripcion: Psicología
+  Carrera_205:
+    descripcion: Psicopedagogía
+  Carrera_206:
+    descripcion: Psiquiatría
+  Carrera_207:
+    descripcion: Publicidad
+  Carrera_208:
+    descripcion: 'Relaciones Internacionales'
+  Carrera_209:
+    descripcion: 'Relaciones Públicas'
+  Carrera_210:
+    descripcion: Sacerdocio
+  Carrera_211:
+    descripcion: Secretariado
+  Carrera_212:
+    descripcion: Sociología
+  Carrera_213:
+    descripcion: Teatro
+  Carrera_214:
+    descripcion: 'Técnico Administración en Turismo'
+  Carrera_215:
+    descripcion: 'Técnico Administración Industrial'
+  Carrera_216:
+    descripcion: 'Técnico en Administración de Empresas'
+  Carrera_217:
+    descripcion: 'Técnico en Administración de Recursos Humanos'
+  Carrera_218:
+    descripcion: 'Técnico en Administración Pública'
+  Carrera_219:
+    descripcion: 'Técnico en Comercialización'
+  Carrera_220:
+    descripcion: 'Técnico en Contabilidad'
+  Carrera_221:
+    descripcion: 'Técnico en Deportes'
+  Carrera_222:
+    descripcion: 'Técnico en Minas y Metalurgia'
+  Carrera_223:
+    descripcion: 'Técnico en Orientación Familiar'
+  Carrera_224:
+    descripcion: 'Técnico Instrumentación Quir�rgica'
+  Carrera_225:
+    descripcion: 'Técnico Jurídico'
+  Carrera_226:
+    descripcion: 'Tecnología Agricultura'
+  Carrera_227:
+    descripcion: 'Tecnología Ambiental'
+  Carrera_228:
+    descripcion: 'Tecnología Automatización Industrial'
+  Carrera_229:
+    descripcion: 'Tecnología Comunicación Multimedia'
+  Carrera_230:
+    descripcion: 'Tecnología Dental'
+  Carrera_231:
+    descripcion: 'Tecnología Electricidad'
+  Carrera_232:
+    descripcion: 'Tecnología Electrónica'
+  Carrera_233:
+    descripcion: 'Tecnología en Acuicultura'
+  Carrera_234:
+    descripcion: 'Tecnología en Aduanas'
+  Carrera_235:
+    descripcion: 'Tecnología en Computación'
+  Carrera_236:
+    descripcion: 'Tecnología en Comunicación Audiovisual'
+  Carrera_237:
+    descripcion: 'Tecnología en Construcción'
+  Carrera_238:
+    descripcion: 'Tecnología en Prevención de Riesgos'
+  Carrera_239:
+    descripcion: 'Tecnología en Redes y Comunicaciones de Datos'
+  Carrera_240:
+    descripcion: 'Tecnología en Sonido'
+  Carrera_241:
+    descripcion: 'Tecnología en Topografía'
+  Carrera_242:
+    descripcion: 'Tecnología en Transporte'
+  Carrera_243:
+    descripcion: 'Tecnología Forestal'
+  Carrera_244:
+    descripcion: 'Tecnología Logística'
+  Carrera_245:
+    descripcion: 'Tecnología Mantenimiento Aeronáutico'
+  Carrera_246:
+    descripcion: 'Tecnología Mecánica Automotriz'
+  Carrera_247:
+    descripcion: 'Tecnología Mecánica Industrial'
+  Carrera_248:
+    descripcion: 'Tecnología Mecatrónica'
+  Carrera_249:
+    descripcion: 'Tecnología Médica'
+  Carrera_250:
+    descripcion: 'Tecnología Médica'
+  Carrera_251:
+    descripcion: 'Tecnología Médica'
+  Carrera_252:
+    descripcion: 'Tecnología Médica'
+  Carrera_253:
+    descripcion: 'Tecnología Médica'
+  Carrera_254:
+    descripcion: 'Tecnología Óptica'
+  Carrera_255:
+    descripcion: 'Tecnología Pesquera'
+  Carrera_256:
+    descripcion: 'Tecnología Química'
+  Carrera_257:
+    descripcion: 'Teoría de la Música'
+  Carrera_258:
+    descripcion: 'Terapia Ocupacional'
+  Carrera_259:
+    descripcion: 'Trabajo Social'
+  Carrera_260:
+    descripcion: 'Traductor e Intérprete'
+  Carrera_261:
+    descripcion: Urbanismo

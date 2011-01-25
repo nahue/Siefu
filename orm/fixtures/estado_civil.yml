@@ -1,0 +1,9 @@
+EstadoCivil:
+  EstadoCivil_1:
+    descripcion: Casado
+  EstadoCivil_2:
+    descripcion: Soltero
+  EstadoCivil_3:
+    descripcion: Viudo
+  EstadoCivil_4:
+    descripcion: Divorciado

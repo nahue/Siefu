@@ -1,0 +1,1 @@
+<iframe src="<?= Html::urlModulo("generarPDF") ?>" width="99%" height="580px" style="border: 1px dotted black; display:block; margin:0 auto;z-index:-1"></iframe>

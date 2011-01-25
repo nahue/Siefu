@@ -1,0 +1,49 @@
+Provincia:
+  Provincia_1:
+    descripcion: 'Capital Federal'
+  Provincia_2:
+    descripcion: 'Buenos Aires'
+  Provincia_3:
+    descripcion: Catamarca
+  Provincia_4:
+    descripcion: Cordoba
+  Provincia_5:
+    descripcion: Corrientes
+  Provincia_6:
+    descripcion: 'Entre Ríos'
+  Provincia_7:
+    descripcion: Jujuy
+  Provincia_8:
+    descripcion: 'La Rioja'
+  Provincia_9:
+    descripcion: Mendoza
+  Provincia_10:
+    descripcion: Salta
+  Provincia_11:
+    descripcion: 'San Juan'
+  Provincia_12:
+    descripcion: 'San Luis'
+  Provincia_13:
+    descripcion: 'Santa Fe'
+  Provincia_14:
+    descripcion: 'Santiago del Estero'
+  Provincia_15:
+    descripcion: Tucumán
+  Provincia_16:
+    descripcion: Chaco
+  Provincia_17:
+    descripcion: Chubut
+  Provincia_18:
+    descripcion: Formosa
+  Provincia_19:
+    descripcion: 'La Pampa'
+  Provincia_20:
+    descripcion: Misiones
+  Provincia_21:
+    descripcion: Neuquén
+  Provincia_22:
+    descripcion: 'Río Negro'
+  Provincia_23:
+    descripcion: 'Santa Cruz'
+  Provincia_24:
+    descripcion: 'Tierra del Fuego'

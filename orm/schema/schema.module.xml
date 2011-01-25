@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<orm-designer version="1.4.2.450">
+
+  <module import-format="DoctrineYml" import-path="schema.yml" name="NetBeansProjects\siefu\orm\schema\schema.yml" visBkColor="15987704" visSizeX="112" visSizeX2="1939" visSizeY="38" visSizeY2="1241">
+    <region caption="Tramite" name="Region1" visBkColor="16443110" visPositionX="38" visPositionY="78" visSizeX="130" visSizeX2="599" visSizeY="0" visSizeY2="922"/>
+    <region caption="Ente" name="Region2" visBkColor="10025880" visPositionX="647" visPositionY="20" visSizeX="0" visSizeX2="765" visSizeY="-56" visSizeY2="883"/>
+    <region caption="Domicilio" name="Region3" visBkColor="9221330" visPositionX="1488" visPositionY="125" visSizeX="161" visSizeX2="387" visSizeY="0" visSizeY2="677"/>
+    <table name="DatoTramite" region="Region1" visPositionX="178" visPositionY="96" visSizeX="0" visSizeX2="148" visSizeY="0" visSizeY2="115">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="id_ente" required="true" size="4" type="integer"/>
+      <column name="id_oficina_seccional" required="true" size="45" type="string"/>
+      <column name="oficina_seccion" required="true" size="45" type="string"/>
+      <column name="fecha" required="true" type="date"/>
+      <column name="DetalleTramite_id" type="integer" unique="true"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.dato_tramite</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table description="Tabla que enlaza todos los datos de un tramite" name="DetalleTramite" region="Region1" visPositionX="154" visPositionY="332" visSizeX="0" visSizeX2="148" visSizeY="0" visSizeY2="59">
+      <column auto-increment="true" name="id" primary="true" type="integer"/>
+      <column name="boleta_prenumerada" size="30" type="string" unique="true"/>
+      <column name="tramite_id" size="4" type="integer" unique="true"/>
+      <column name="Usuario_id" size="4" type="integer"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.detalle_tramite</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Domicilio" region="Region3" visPositionX="103" visPositionY="41" visSizeX="0" visSizeX2="131" visSizeY="0" visSizeY2="185">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="barrio" size="45" type="string"/>
+      <column name="nro_calle" size="45" type="string"/>
+      <column name="piso" size="45" type="string"/>
+      <column name="depto" size="45" type="string"/>
+      <column name="cod_postal" size="45" type="string"/>
+      <column name="telefono" size="100" type="string"/>
+      <column name="Provincia_id" size="4" type="integer"/>
+      <column name="Ente_id" size="4" type="integer"/>
+      <column name="Localidad_id" size="4" type="integer"/>
+      <column name="Calle_id" size="4" type="integer"/>
+      <column name="PartidoDepto_id" size="4" type="integer"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.domicilio</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+        <attribute name="actAs">
+          <attribute name="Timestampable">
+            <attribute name="created">
+              <attribute name="alias">creado</attribute>
+            </attribute>
+            <attribute name="updated">
+              <attribute name="alias">actualizado</attribute>
+            </attribute>
+          </attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Educacional" region="Region2" visPositionX="211" visPositionY="577" visSizeX="0" visSizeX2="150" visSizeY="0" visSizeY2="143">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="lee_escribe" required="true" type="boolean"/>
+      <column name="mas_nivel_educacional" size="45" type="string"/>
+      <column name="titulo_posgrado" size="45" type="string"/>
+      <column name="profesion" size="45" type="string"/>
+      <column name="ocupacion" size="45" type="string"/>
+      <column name="cambios" size="100" type="string"/>
+      <column name="Ente_id" size="4" type="integer"/>
+      <column name="Carrera_id" size="4" type="integer"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.educacional</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+        <attribute name="actAs">
+          <attribute name="Timestampable"/>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Ente" region="Region2" visPositionX="343" visPositionY="279" visSizeX="0" visSizeX2="160" visSizeY="0" visSizeY2="213">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="dni" required="true" size="45" type="string"/>
+      <column name="dni2" required="true" size="45" type="string"/>
+      <column name="fecha_nacimiento" required="true" type="date"/>
+      <column name="apellido" required="true" size="45" type="string"/>
+      <column name="nombre" required="true" size="45" type="string"/>
+      <column name="extranjero" required="true" type="boolean"/>
+      <column name="id_estado_civil" required="true" size="4" type="integer"/>
+      <column name="oficina_identificacion" size="30" type="string"/>
+      <column name="veterano" type="boolean"/>
+      <column name="sexo_id" required="true" size="4" type="integer"/>
+      <column name="pais_id" size="4" type="integer"/>
+      <column name="ProvinciaNacimiento_id" size="4" type="integer"/>
+      <column name="LocalidadNacimiento_id" size="4" type="integer"/>
+      <column name="PartidoDeptoNacimiento_id" size="4" type="integer"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.ente</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="EstadoCivil" region="Region2" visPositionX="385" visPositionY="95" visSizeX="0" visSizeX2="114" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="descripcion" size="50" type="string"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.estado_civil</attribute>
+        <attribute name="options">
+          <attribute name="charset">utf8</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Identificacion" region="Region1" visPositionX="151" visPositionY="473" visSizeX="0" visSizeX2="170" visSizeY="0" visSizeY2="227">
+      <column auto-increment="true" name="id" primary="true" type="integer"/>
+      <column name="documento" size="45" type="string"/>
+      <column name="nacionalidad" size="45" type="string"/>
+      <column name="nacionalidad_acquirida" size="45" type="string"/>
+      <column name="pasaporte" size="45" type="string"/>
+      <column name="fecha_ingreso_pais" type="date"/>
+      <column name="cat_radicacion" size="1" type="char"/>
+      <column name="fecha_radicacion" type="date"/>
+      <column name="expediente_nro" size="45" type="string"/>
+      <column name="res_dis_dtop" size="45" type="string"/>
+      <column name="fecha_vencimiento_temporaria" type="date"/>
+      <column name="prorroga" type="date"/>
+      <column name="apellido_nombre_padre" size="45" type="string"/>
+      <column name="apellido_nombre_madre" size="45" type="string"/>
+      <column name="DetalleTramite_id" type="integer" unique="true"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.identificacion</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Nacimiento" region="Region1" visPositionX="391" visPositionY="463" visSizeX="0" visSizeX2="148" visSizeY="0" visSizeY2="241">
+      <column auto-increment="true" name="id" primary="true" type="integer"/>
+      <column name="incripto_en" size="150" type="string"/>
+      <column name="nro_oficina" size="150" type="string"/>
+      <column name="id_provincia" required="true" size="2" type="string"/>
+      <column name="acta_nro" size="45" type="string"/>
+      <column name="tomo_nro" size="45" type="string"/>
+      <column name="folio_nro" size="45" type="string"/>
+      <column name="anio" size="45" type="string"/>
+      <column name="observaciones" size="150" type="string"/>
+      <column name="apellido_padre" size="45" type="string"/>
+      <column name="nombre_padre" size="45" type="string"/>
+      <column name="dni_padre" size="45" type="string"/>
+      <column name="apellido_madre" size="45" type="string"/>
+      <column name="nombre_madre" size="45" type="string"/>
+      <column name="dni_madre" size="45" type="string"/>
+      <column name="DetalleTramite_id" type="integer" unique="true"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.nacimiento</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Pais" region="Region2" visPositionX="24" visPositionY="315" visSizeX="0" visSizeX2="114" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="descripcion" required="true" size="45" type="string"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.pais</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Provincia" region="Region3" visPositionX="-141" visPositionY="117" visSizeX="0" visSizeX2="114" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" required="true" size="4" type="integer"/>
+      <column name="descripcion" required="true" size="45" type="string"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.provincia</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Reposicion" region="Region1" visPositionX="441" visPositionY="263" visSizeX="0" visSizeX2="148" visSizeY="0" visSizeY2="87">
+      <column auto-increment="true" name="id" primary="true" type="integer"/>
+      <column name="dice" size="150" type="string"/>
+      <column name="debe_decir" size="150" type="string"/>
+      <column name="cartilla" size="2" type="string"/>
+      <column name="DetalleTramite_id" type="integer" unique="true"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.reposicion</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Rectificacion" region="Region1" visPositionX="-110" visPositionY="263" visSizeX="0" visSizeX2="137" visSizeY="0" visSizeY2="87">
+      <column auto-increment="true" name="id" primary="true" type="integer"/>
+      <column name="dice" size="150" type="string"/>
+      <column name="debe_decir" size="150" type="string"/>
+      <column name="cartilla" size="2" type="string"/>
+      <column name="DetalleTramite_id" type="integer" unique="true"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.rectificacion</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Tramite" region="Region1" visPositionX="28" visPositionY="213" visSizeX="0" visSizeX2="114" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="descripcion" required="true" size="45" type="string"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.tramite</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Entidad" region="Region1" visPositionX="-3" visPositionY="782" visSizeX="0" visSizeX2="123" visSizeY="0" visSizeY2="59">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="descripcion" size="45" type="string"/>
+      <column name="numero" size="20" type="string"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.entidades</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Usuario" region="Region1" visPositionX="-84" visPositionY="500" visSizeX="0" visSizeX2="129" visSizeY="0" visSizeY2="129">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="usuario" required="true" size="30" type="string"/>
+      <column name="pass" required="true" size="30" type="string"/>
+      <column name="email" size="100" type="string"/>
+      <column name="nombre" required="true" size="50" type="string"/>
+      <column name="apellido" required="true" size="50" type="string"/>
+      <column name="num_entidad" required="true" size="4" type="integer"/>
+      <column name="admin" required="true" size="4" type="integer"/>
+      <column name="Entidad_id" size="4" type="integer"/>
+      <orm-properties>
+        <attribute name="tableName">siefu.usuario</attribute>
+        <attribute name="options">
+          <attribute name="charset">latin1</attribute>
+          <attribute name="type">InnoDB</attribute>
+        </attribute>
+      </orm-properties>
+    </table>
+    <table name="Sexo" region="Region2" visPositionX="24" visPositionY="626" visSizeX="0" visSizeX2="110" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="descripcion" size="8" type="string"/>
+    </table>
+    <table name="Localidad" region="Region3" visPositionX="17" visPositionY="345" visSizeX="0" visSizeX2="119" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" required="true" size="4" type="integer"/>
+      <column name="descripcion" size="100" type="string"/>
+    </table>
+    <table name="Calle" region="Region3" visPositionX="116" visPositionY="414" visSizeX="0" visSizeX2="119" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" required="true" size="4" type="integer"/>
+      <column name="descripcion" size="100" type="string"/>
+    </table>
+    <table name="PartidoDepto" region="Region3" visPositionX="-110" visPositionY="266" visSizeX="0" visSizeX2="119" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" required="true" size="4" type="integer"/>
+      <column name="descripcion" size="100" type="string"/>
+    </table>
+    <table name="Carrera" region="Region2" visPositionX="464" visPositionY="561" visSizeX="0" visSizeX2="119" visSizeY="0" visSizeY2="45">
+      <column auto-increment="true" name="id" primary="true" size="4" type="integer"/>
+      <column name="descripcion" size="100" type="string"/>
+    </table>
+    <orm-properties>
+      <attribute name="options">
+        <attribute name="charset">latin1</attribute>
+      </attribute>
+    </orm-properties>
+    <foreign-key caption="Tramites - Ente" from="DatoTramite" inverse-alias="Ente" name="FK_DatoTramite_Ente_id" owning-alias="Tramites" to="Ente" visCaption1X="-273" visCaption1Y="5" visCenterX="72" visCenterY="0">
+      <foreign-key-column from="id_ente" to="id"/>
+      <orm-properties>
+        <attribute name="onDelete">no action</attribute>
+        <attribute name="onUpdate">no action</attribute>
+      </orm-properties>
+    </foreign-key>
+    <foreign-key caption="DetalleTramite DatoTramite" from="DatoTramite" inverse-alias="DetalleTramite" name="FK_DatoTramite_DetalleTramite_id" owning-alias="DatoTramite" to="DetalleTramite">
+      <foreign-key-column from="DetalleTramite_id" to="id"/>
+    </foreign-key>
+    <foreign-key from="DetalleTramite" inverse-alias="Tramite" name="FK_DetalleTramite_Tramite_id" owning-alias="DetalleTramite" to="Tramite" visCenterX="0" visCenterY="0">
+      <foreign-key-column from="tramite_id" to="id"/>
+      <orm-properties>
+        <attribute name="onDelete">no action</attribute>
+        <attribute name="onUpdate">no action</attribute>
+      </orm-properties>
+    </foreign-key>
+    <foreign-key caption="Usuario DetalleTramite" from="DetalleTramite" inverse-alias="Usuario" name="FK_DetalleTramite_Usuario_id" owning-alias="DetalleTramites" to="Usuario">
+      <foreign-key-column from="Usuario_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Provincia Domicilio" from="Domicilio" inverse-alias="Provincia" name="FK_Domicilio_Provincia_id" owning-alias="Domicilios" to="Provincia" visCaption1X="0" visCaption1Y="0" visCenterX="0" visCenterY="0">
+      <foreign-key-column from="Provincia_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Ente Domicilio" from="Domicilio" inverse-alias="Ente" name="FK_Domicilio_Ente_id" owning-alias="Domicilios" to="Ente" visCaption1X="0" visCaption1Y="0" visCenterX="0" visCenterY="0">
+      <foreign-key-column from="Ente_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Localidad Domicilio" from="Domicilio" inverse-alias="Localidad" name="FK_Domicilio_Localidad_id" owning-alias="Domicilios" to="Localidad" visCaption1X="0" visCaption1Y="0" visCenterX="0" visCenterY="0">
+      <foreign-key-column from="Localidad_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Calle Domicilio" from="Domicilio" inverse-alias="Calle" name="FK_Domicilio_Calle_id" owning-alias="Domicilios" to="Calle" visCaption1X="0" visCaption1Y="0" visCenterX="0" visCenterY="0">
+      <foreign-key-column from="Calle_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="PartidoDepto Domicilio" from="Domicilio" inverse-alias="PartidoDepto" name="FK_Domicilio_PartidoDepto_id" owning-alias="Domicilios" to="PartidoDepto" visCaption1X="25" visCaption1Y="-10" visCenterX="2" visCenterY="0">
+      <foreign-key-column from="PartidoDepto_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Ente Educacional" from="Educacional" inverse-alias="Ente" name="FK_Educacional_Ente_id" owning-alias="Educacional" to="Ente" visCaption1X="0" visCaption1Y="0" visCenterX="0" visCenterY="0">
+      <foreign-key-column from="Ente_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Carrera Educacional" from="Educacional" name="FK_Educacional_Carrera_id" to="Carrera">
+      <foreign-key-column from="Carrera_id" to="id"/>
+    </foreign-key>
+    <foreign-key from="Ente" inverse-alias="EstadoCivil" name="FK_Ente_EstadoCivil_id" owning-alias="Entes" to="EstadoCivil" visCenterX="19" visCenterY="0">
+      <foreign-key-column from="id_estado_civil" to="id"/>
+      <orm-properties>
+        <attribute name="onDelete">no action</attribute>
+        <attribute name="onUpdate">no action</attribute>
+      </orm-properties>
+    </foreign-key>
+    <foreign-key caption="Sexos - Ente" from="Ente" inverse-alias="Sexo" name="FK_Ente_sexo_id" owning-alias="Entes" to="Sexo" visCaption1X="0" visCaption1Y="0" visCenterX="-4" visCenterY="0">
+      <foreign-key-column from="sexo_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Paises - Ente" from="Ente" inverse-alias="Pais" name="FK_Ente_Pais_id" owning-alias="Entes" to="Pais" visCaption1X="0" visCaption1Y="0" visCenterX="0" visCenterY="0">
+      <foreign-key-column from="pais_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Provincia Ente" from="Ente" inverse-alias="provincia_nacimiento" name="FK_Ente_Provincia_id" owning-alias="Ente" to="Provincia">
+      <foreign-key-column from="ProvinciaNacimiento_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Localidad Ente" from="Ente" inverse-alias="localidad_nacimiento" name="FK_Ente_Localidad_id" owning-alias="Entes" to="Localidad">
+      <foreign-key-column from="LocalidadNacimiento_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="PartidoDepto Ente" from="Ente" inverse-alias="partido_nacimiento" name="FK_Ente_PartidoDepto_id" owning-alias="Ente" to="PartidoDepto">
+      <foreign-key-column from="PartidoDeptoNacimiento_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="DetalleTramite Identificacion" from="Identificacion" inverse-alias="DetalleTramite" name="FK_Identificacion_DetalleTramite_id" owning-alias="Identificacion" to="DetalleTramite">
+      <foreign-key-column from="DetalleTramite_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="DetalleTramite Nacimiento" from="Nacimiento" inverse-alias="DetalleTramite" name="FK_Nacimiento_DetalleTramite_id" owning-alias="Nacimiento" to="DetalleTramite">
+      <foreign-key-column from="DetalleTramite_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="DetalleTramite Reposicion" from="Reposicion" inverse-alias="DetalleTramite" name="FK_Reposicion_DetalleTramite_id" owning-alias="Reposicion" to="DetalleTramite">
+      <foreign-key-column from="DetalleTramite_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="DetalleTramite Rectificacion" from="Rectificacion" inverse-alias="DetalleTramite" name="FK_Rectificacion_DetalleTramite_id" owning-alias="Rectificacion" to="DetalleTramite">
+      <foreign-key-column from="DetalleTramite_id" to="id"/>
+    </foreign-key>
+    <foreign-key caption="Entidad Usuario" from="Usuario" inverse-alias="Entidad" name="FK_Usuario_Entidad_id" owning-alias="Usuarios" to="Entidad">
+      <foreign-key-column from="Entidad_id" to="id"/>
+    </foreign-key>
+  </module>
+
+</orm-designer>

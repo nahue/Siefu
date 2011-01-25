@@ -1,0 +1,13 @@
+Entidad:
+  Entidad_1:
+    descripcion: Administrador
+    numero: '0'
+  Entidad_2:
+    descripcion: 'Registro Civil Ushuaia'
+    numero: '1717'
+  Entidad_3:
+    descripcion: 'Registro Civil Tolhuin'
+    numero: '2591'
+  Entidad_4:
+    descripcion: 'Registro Civil Rio Grande'
+    numero: '1718'

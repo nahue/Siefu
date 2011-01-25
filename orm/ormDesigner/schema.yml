@@ -1,0 +1,508 @@
+DatoTramite:
+  tableName: siefu.dato_tramite
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    boleta_prenumerada:
+      type: string(30)
+      notnull: true
+    id_ente:
+      type: integer(4)
+      notnull: true
+    id_oficina_seccional:
+      type: string(45)
+      notnull: true
+    oficina_seccion:
+      type: string(45)
+      notnull: true
+    fecha:
+      type: date
+      notnull: true
+  relations:
+    Ente:
+      class: Ente
+      foreignAlias: DatoTramites
+      onDelete: no action
+      onUpdate: no action
+      local: id_ente
+      foreign: id
+    DetalleTramite:
+      class: DetalleTramite
+      foreignAlias: DatoTramites
+      onDelete: no action
+      onUpdate: no action
+      local: boleta_prenumerada
+      foreign: boleta_prenumerada
+DetalleTramite:
+  tableName: siefu.detalle_tramite
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer
+      autoincrement: true
+    boleta_prenumerada:
+      type: string(30)
+      notnull: true
+    tramite_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    Tramite:
+      class: Tramite
+      foreignAlias: DetalleTramites
+      onDelete: no action
+      onUpdate: no action
+      local: tramite_id
+      foreign: id
+    Identificacion:
+      class: Identificacion
+      foreignAlias: DetalleTramites
+      onDelete: no action
+      onUpdate: no action
+      local: boleta_prenumerada
+      foreign: boleta_prenumerada
+Domicilio:
+  tableName: siefu.domicilio
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    boleta_prenumerada:
+      primary: true
+      type: string(30)
+      notnull: true
+    id_provincia:
+      type: integer(4)
+      notnull: true
+    partido_dtop:
+      type: string(45)
+    id_localidad:
+      type: integer(4)
+      notnull: true
+    barrio:
+      type: string(45)
+    calle:
+      type: string(45)
+    nro_calle:
+      type: string(45)
+    piso:
+      type: string(45)
+    depto:
+      type: string(45)
+    cod_postal:
+      type: string(45)
+    tel_prefijo:
+      type: string(45)
+    tel_numero:
+      type: string(45)
+  relations:
+    Localidad:
+      class: Localidad
+      foreignAlias: Domicilioes
+      onDelete: no action
+      onUpdate: no action
+      local: id_localidad
+      foreign: id
+    Provincia:
+      class: Provincia
+      foreignAlias: Domicilios
+      onDelete: no action
+      onUpdate: no action
+      local: id_provincia
+      foreign: id
+Educacional:
+  tableName: siefu.educacional
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    dni_ente:
+      primary: true
+      type: string(45)
+      notnull: true
+    lee_escribe:
+      type: string(2)
+      notnull: true
+    mas_nivel_educional:
+      type: string(45)
+    titulo_alcanzado:
+      type: string(45)
+    titulo_posgrado:
+      type: string(45)
+    profecion:
+      type: string(45)
+    ocupacion:
+      type: string(45)
+    cambios:
+      type: string(100)
+  relations:
+    Ente:
+      class: Ente
+      foreignAlias: Educacionales
+      onDelete: no action
+      onUpdate: no action
+      local: dni_ente
+      foreign: dni
+Ente:
+  tableName: siefu.ente
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    dni:
+      type: string(45)
+      notnull: true
+    dni2:
+      type: string(45)
+      notnull: true
+    fecha_nacimiento:
+      type: date
+      notnull: true
+    apellido:
+      type: string(45)
+      notnull: true
+    nombre:
+      type: string(45)
+      notnull: true
+    pais_id:
+      type: integer(4)
+      notnull: true
+    provincia_nacimiento:
+      type: string(45)
+      notnull: true
+    partido_ciudad_naci:
+      type: string(45)
+    id_localidad_naci:
+      type: integer(4)
+      notnull: true
+    extranjero:
+      type: integer(1)
+      notnull: true
+    id_estado_civil:
+      type: integer(4)
+      notnull: true
+    oficina_identificacion:
+      type: string(30)
+    veterano:
+      type: string(2)
+    provincia_id:
+      type: integer(4)
+    partido_depto:
+      type: string(45)
+    localidad_id:
+      type: integer(4)
+      notnull: true
+    barrio:
+      type: string(45)
+    calle:
+      type: string(45)
+    nro_calle:
+      type: string(45)
+    piso:
+      type: string(45)
+    depto:
+      type: string(45)
+    cod_postal:
+      type: string(45)
+    tel_prefijo:
+      type: string(45)
+    tel_numero:
+      type: string(45)
+  relations:
+    EstadoCivil:
+      class: EstadoCivil
+      foreignAlias: Entes
+      onDelete: no action
+      onUpdate: no action
+      local: id_estado_civil
+      foreign: id
+    Localidad:
+      foreignAlias: Entes
+      local: localidad_id
+      foreign: id
+    Pais:
+      foreignAlias: Entes
+      local: pais_id
+      foreign: id
+    Provincia:
+      foreignAlias: Entes
+      local: provincia_id
+      foreign: id
+EstadoCivil:
+  tableName: siefu.estado_civil
+  options:
+    charset: utf8
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    descripcion:
+      type: string(50)
+Identificacion:
+  tableName: siefu.identificacion
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    boleta_prenumerada:
+      type: string(30)
+      notnull: true
+    documento:
+      type: string(45)
+    nacionalidad:
+      type: string(45)
+    nacionalidad_acquirida:
+      type: string(45)
+    pasaporte:
+      type: string(45)
+    fecha_ingreso_pais:
+      type: date
+    cat_radicacion:
+      type: char(1)
+    fecha_radicacion:
+      type: date
+    expediente_nro:
+      type: string(45)
+    res_dis_dtop:
+      type: string(45)
+    fecha_vencimiento_temporaria:
+      type: date
+    prorroga:
+      type: date
+    apellido_nombre_padre:
+      type: string(45)
+    apellido_nombre_madre:
+      type: string(45)
+Localidad:
+  tableName: siefu.localidad
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+    descripcion:
+      type: string(45)
+      notnull: true
+Nacimiento:
+  tableName: siefu.nacimiento
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    boleta_prenumerada:
+      primary: true
+      type: string(30)
+      notnull: true
+    incripto_en:
+      type: string(150)
+    nro_oficina:
+      type: string(150)
+    id_provincia:
+      type: string(2)
+      notnull: true
+    acta_nro:
+      type: string(45)
+    tomo_nro:
+      type: string(45)
+    folio_nro:
+      type: string(45)
+    anio:
+      type: string(45)
+    observaciones:
+      type: string(150)
+    apellido_padre:
+      type: string(45)
+    nombre_padre:
+      type: string(45)
+    dni_padre:
+      type: string(45)
+    apellido_madre:
+      type: string(45)
+    nombre_madre:
+      type: string(45)
+    dni_madre:
+      type: string(45)
+  relations:
+    DetalleTramite:
+      class: DetalleTramite
+      foreignAlias: Nacimientos
+      onDelete: no action
+      onUpdate: no action
+      local: boleta_prenumerada
+      foreign: boleta_prenumerada
+Pais:
+  tableName: siefu.pais
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    descripcion:
+      type: string(45)
+      notnull: true
+Provincia:
+  tableName: siefu.provincia
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      notnull: true
+    descripcion:
+      type: string(45)
+      notnull: true
+Reposicion:
+  tableName: siefu.reposicion
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    boleta_prenumerada:
+      type: string(30)
+      notnull: true
+    dice:
+      type: string(150)
+    debe_decir:
+      type: string(150)
+    cartilla:
+      type: string(2)
+  relations:
+    DetalleTramite:
+      class: DetalleTramite
+      foreignAlias: Reposiciones
+      onDelete: no action
+      onUpdate: no action
+      local: boleta_prenumerada
+      foreign: boleta_prenumerada
+Rectificacion:
+  tableName: siefu.rectificacion
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    boleta_prenumerada:
+      type: string(30)
+      notnull: true
+    dice:
+      type: string(150)
+    debe_decir:
+      type: string(150)
+    cartilla:
+      type: string(2)
+  relations:
+    DetalleTramite:
+      class: DetalleTramite
+      foreignAlias: Rectificaciones
+      onDelete: no action
+      onUpdate: no action
+      local: boleta_prenumerada
+      foreign: boleta_prenumerada
+Tramite:
+  tableName: siefu.tramite
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    descripcion:
+      type: string(45)
+      notnull: true
+Entidades:
+  tableName: siefu.entidades
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    codigo:
+      type: integer(4)
+      notnull: true
+    descripcion:
+      type: string(45)
+    numero:
+      type: string(20)
+Usuario:
+  tableName: siefu.usuario
+  options:
+    charset: latin1
+    type: InnoDB
+  columns:
+    id:
+      primary: true
+      type: integer(4)
+      autoincrement: true
+    usuario:
+      primary: true
+      type: string(30)
+      notnull: true
+    pass:
+      type: string(30)
+      notnull: true
+    nombre:
+      type: string(50)
+      notnull: true
+    apellido:
+      type: string(50)
+      notnull: true
+    num_entidad:
+      type: integer(4)
+      notnull: true
+    admin:
+      type: integer(4)
+      notnull: true
+    entidades_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    Entidades:
+      foreignAlias: Usuarios
+      local: entidades_id
+      foreign: id

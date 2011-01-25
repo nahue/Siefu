@@ -1,0 +1,10 @@
+Usuario:
+  Usuario_1_registroush:
+    id: '1'
+    usuario: registroush
+    pass: ushuaia
+    nombre: Nahuel
+    apellido: Chaves
+    num_entidad: '17'
+    admin: '1'
+    Entidades: Entidades_2

@@ -1,0 +1,239 @@
+/*
+    Document   : custom
+    Created on : 05/11/2010, 21:05:52
+    Author     : strato1986
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body{
+    color:#666666;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size:87.5%;
+    line-height:1.5;
+    background-image: url('Aristo/images/ui-bg_diagonals-thick_20_666666_40x40.png');
+}
+.container_24
+{
+    background-color: #fff;
+    padding:7px;
+    /*min-height: 700px;*/
+    -moz-border-radius: 10px;
+    -moz-box-shadow: 0 0 5px 5px #4d4d4d;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    box-shadow: 0 0 5px 5px #4d4d4d;
+}
+.contenido
+{
+    min-height:430px;
+    margin-bottom: 20px;
+}
+.header
+{
+    margin: -7px;
+    height:117px;
+    background: -moz-linear-gradient(left, #254d91, #3a6cb3);
+    background-color: #3A6CB3;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+
+}
+.header img
+{
+    margin-top:11px;
+}
+#tblAcciones{
+    /* width: 300px*/
+}
+
+.tabla
+{
+    /*background-color: #dcdcdc;*/
+}
+.tabla p
+{
+    margin: 0 !important;
+}
+.tabla label
+{
+    background-color: #dcdcdc;
+
+    float		: left;
+    text-align	: right;
+    width		: 70px;
+    height		: 34px;
+    margin-left	: 0.5em !important;
+}
+.tabla label span
+{
+    vertical-align	: middle;
+    display			: block;
+    margin-top		: 5px;
+    margin-right	: 3px;
+    line-height		: 13px;
+    text-align		: right;
+}
+.tabla div
+{
+    background-color: #dcdcdc;
+    display:block;
+    float:left;
+    margin-left: 4px;
+    margin-bottom: 4px;
+
+}
+.tabla input
+{
+
+    display		: block;
+    float		: left;
+    margin-left	: 1.0em !important;
+    height		: 10px;
+    width		: 300px;
+    margin		: 6px;
+}
+.tabla input.fechaDia,
+.tabla input.fechaMes,
+.tabla input.fechaAnio
+
+{
+    width: 25px;
+    height: 15px;
+    margin-right: 0px !important;
+    border:1px solid #BBBBBB;
+}
+.tabla input.fechaAnio
+{
+    width:35px;
+}
+
+h2 {
+    color:#666666;
+    display:block;
+    font-size:1.3em;
+    font-weight:bold;
+    margin-bottom:10px;
+
+}
+h4{
+    color:#444444;
+    font-weight:bold;
+    margin-bottom:10px;
+
+    font-size:1.2em;
+    font-weight:normal;
+    line-height:1.25;
+    margin-left: 20px;
+
+}
+
+.code {
+    background:url("../img/bg-code.png") no-repeat 0 0 ;
+    color:#46596C;
+    /*display:block;*/
+    left:-120px;
+    margin-bottom:1.5em;
+    padding:10px 120px;
+    position:relative;
+    text-shadow:0 1px 0 rgba(255, 255, 255, 0.3);
+    /*width:710px;*/
+    height: 50px;
+}
+
+#mascara-precarga{
+    background-color:white;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:20000;
+}
+#cargando{
+    height:auto;
+    position:absolute;
+    left:45%;
+    top:40%;
+    padding:2px;
+    z-index:20001;
+}
+#cargando a {
+    color:#225588;
+}
+#cargando .cargando-indicador{
+    background:white;
+    color:#444;
+    font:bold 13px Helvetica, Arial, sans-serif !important;
+    height:auto;
+    margin:0;
+    padding:10px;
+}
+
+#cargando-msg {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.dialogo
+{
+    left: 0px !important;
+    margin: 0 auto;
+    position: relative;
+    top: 20px !important;
+    display:block;
+}
+#contenedorLogin
+{
+    margin: 0 auto;
+    width: 760px;
+}
+.dialogoLogin
+{
+    margin: 0 auto;
+
+    float: left;
+    position: relative;
+    top: 0 !important;
+    left: 0px !important;
+    margin-left:10px;
+    /*margin: 0 0 0 100px !important;*/
+}
+
+.dialogoLogo
+{
+    float: left;
+
+    margin: 0 auto;
+    margin-left: 40px;
+    position: relative;
+    top: 0 !important;
+    left: 0px !important;
+   /* margin: -232px 0 0 500px !important;*/
+}
+.dialogoLogo img
+{
+    margin-top: 30px;
+}
+#footer {
+    background-color: #CCCCCC;
+    border-top: 1px solid #B4B4B4;
+    height: 70px;
+    margin: -7px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+}
+
+#footer div.creditos{
+    width: 500px;
+    display:block;
+    font-size: 12px;
+    margin:0 auto;
+    text-align: center;
+    /*line-height: 0.3em;
+    margin-top: -13px;*/
+}

@@ -1,0 +1,485 @@
+Pais:
+  Pais_1:
+    descripcion: Afganistán
+  Pais_2:
+    descripcion: IslasGland
+  Pais_3:
+    descripcion: Albania
+  Pais_4:
+    descripcion: Alemania
+  Pais_5:
+    descripcion: Andorra
+  Pais_6:
+    descripcion: Angola
+  Pais_7:
+    descripcion: Anguilla
+  Pais_8:
+    descripcion: Antártida
+  Pais_9:
+    descripcion: 'Antigua y Barbuda'
+  Pais_10:
+    descripcion: 'Antillas Holandesas'
+  Pais_11:
+    descripcion: 'Arabia Saudí'
+  Pais_12:
+    descripcion: Argentina
+  Pais_13:
+    descripcion: Argelia
+  Pais_14:
+    descripcion: Armenia
+  Pais_15:
+    descripcion: Aruba
+  Pais_16:
+    descripcion: Australia
+  Pais_17:
+    descripcion: Austria
+  Pais_18:
+    descripcion: Azerbaiyán
+  Pais_19:
+    descripcion: Bahamas
+  Pais_20:
+    descripcion: Bahráin
+  Pais_21:
+    descripcion: Bangladesh
+  Pais_22:
+    descripcion: Barbados
+  Pais_23:
+    descripcion: Bielorrusia
+  Pais_24:
+    descripcion: Bélgica
+  Pais_25:
+    descripcion: Belice
+  Pais_26:
+    descripcion: Benin
+  Pais_27:
+    descripcion: Bermudas
+  Pais_28:
+    descripcion: Bhután
+  Pais_29:
+    descripcion: Bolivia
+  Pais_30:
+    descripcion: 'Bosnia y Herzegovina'
+  Pais_31:
+    descripcion: Botsuana
+  Pais_32:
+    descripcion: IslaBouvet
+  Pais_33:
+    descripcion: Brasil
+  Pais_34:
+    descripcion: Brunéi
+  Pais_35:
+    descripcion: Bulgaria
+  Pais_36:
+    descripcion: BurkinaFaso
+  Pais_37:
+    descripcion: Burundi
+  Pais_38:
+    descripcion: CaboVerde
+  Pais_39:
+    descripcion: IslasCaimán
+  Pais_40:
+    descripcion: Camboya
+  Pais_41:
+    descripcion: Camerún
+  Pais_42:
+    descripcion: Canadá
+  Pais_44:
+    descripcion: Chad
+  Pais_45:
+    descripcion: 'República Checa'
+  Pais_46:
+    descripcion: Chile
+  Pais_47:
+    descripcion: China
+  Pais_48:
+    descripcion: Chipre
+  Pais_49:
+    descripcion: 'Isla de Navidad'
+  Pais_50:
+    descripcion: 'Ciudad del Vaticano'
+  Pais_51:
+    descripcion: 'Islas Cocos'
+  Pais_52:
+    descripcion: Colombia
+  Pais_53:
+    descripcion: Comoras
+  Pais_54:
+    descripcion: 'Rep. De. del Congo'
+  Pais_55:
+    descripcion: Congo
+  Pais_56:
+    descripcion: 'Islas Cook'
+  Pais_57:
+    descripcion: 'Corea del Norte'
+  Pais_58:
+    descripcion: 'Corea del Sur'
+  Pais_59:
+    descripcion: 'Costa de Marfil'
+  Pais_60:
+    descripcion: 'Costa Rica'
+  Pais_61:
+    descripcion: Croacia
+  Pais_62:
+    descripcion: Cuba
+  Pais_63:
+    descripcion: Dinamarca
+  Pais_64:
+    descripcion: Dominica
+  Pais_65:
+    descripcion: 'Rep Dominicana'
+  Pais_66:
+    descripcion: Ecuador
+  Pais_67:
+    descripcion: Egipto
+  Pais_68:
+    descripcion: 'El Salvador'
+  Pais_69:
+    descripcion: 'Em árabes Unidos'
+  Pais_70:
+    descripcion: Eritrea
+  Pais_71:
+    descripcion: Eslovaquia
+  Pais_72:
+    descripcion: Eslovenia
+  Pais_73:
+    descripcion: España
+  Pais_74:
+    descripcion: 'Is ult de Estados Unidos'
+  Pais_75:
+    descripcion: 'Estados Unidos'
+  Pais_76:
+    descripcion: Estonia
+  Pais_77:
+    descripcion: Etiopía
+  Pais_78:
+    descripcion: IslasFeroe
+  Pais_79:
+    descripcion: Filipinas
+  Pais_80:
+    descripcion: Finlandia
+  Pais_81:
+    descripcion: Fiyi
+  Pais_82:
+    descripcion: Francia
+  Pais_83:
+    descripcion: Gabón
+  Pais_84:
+    descripcion: Gambia
+  Pais_85:
+    descripcion: Georgia
+  Pais_86:
+    descripcion: 'I Geor del S y Sand del S'
+  Pais_87:
+    descripcion: Ghana
+  Pais_88:
+    descripcion: Gibraltar
+  Pais_89:
+    descripcion: Granada
+  Pais_90:
+    descripcion: Grecia
+  Pais_91:
+    descripcion: Groenlandia
+  Pais_92:
+    descripcion: Guadalupe
+  Pais_93:
+    descripcion: Guam
+  Pais_94:
+    descripcion: Guatemala
+  Pais_95:
+    descripcion: 'Gua Francesa'
+  Pais_96:
+    descripcion: Guinea
+  Pais_97:
+    descripcion: 'Guinea Ecuatorial'
+  Pais_98:
+    descripcion: Guinea-Bissau
+  Pais_99:
+    descripcion: Guyana
+  Pais_100:
+    descripcion: Haití
+  Pais_101:
+    descripcion: 'I Heardy McD'
+  Pais_102:
+    descripcion: Honduras
+  Pais_103:
+    descripcion: 'Hong Kong'
+  Pais_104:
+    descripcion: Hungría
+  Pais_105:
+    descripcion: India
+  Pais_106:
+    descripcion: Indonesia
+  Pais_107:
+    descripcion: Irán
+  Pais_108:
+    descripcion: Iraq
+  Pais_109:
+    descripcion: Irlanda
+  Pais_110:
+    descripcion: Islandia
+  Pais_111:
+    descripcion: Israel
+  Pais_112:
+    descripcion: Italia
+  Pais_113:
+    descripcion: Jamaica
+  Pais_114:
+    descripcion: Japón
+  Pais_115:
+    descripcion: Jordania
+  Pais_116:
+    descripcion: Kazajstán
+  Pais_117:
+    descripcion: Kenia
+  Pais_118:
+    descripcion: Kirguistán
+  Pais_119:
+    descripcion: Kiribati
+  Pais_120:
+    descripcion: Kuwait
+  Pais_121:
+    descripcion: Laos
+  Pais_122:
+    descripcion: Lesotho
+  Pais_123:
+    descripcion: Letonia
+  Pais_124:
+    descripcion: Líbano
+  Pais_125:
+    descripcion: Liberia
+  Pais_126:
+    descripcion: Libia
+  Pais_127:
+    descripcion: Liechtenstein
+  Pais_128:
+    descripcion: Lituania
+  Pais_129:
+    descripcion: Luxemburgo
+  Pais_130:
+    descripcion: Macao
+  Pais_131:
+    descripcion: 'ARY Macedonia'
+  Pais_132:
+    descripcion: Madagascar
+  Pais_133:
+    descripcion: Malasia
+  Pais_134:
+    descripcion: Malawi
+  Pais_135:
+    descripcion: Maldivas
+  Pais_136:
+    descripcion: Malí
+  Pais_137:
+    descripcion: Malta
+  Pais_138:
+    descripcion: IslasMalvinas
+  Pais_139:
+    descripcion: 'I Mar del Norte'
+  Pais_140:
+    descripcion: Marruecos
+  Pais_141:
+    descripcion: IslasMarshall
+  Pais_142:
+    descripcion: Martinica
+  Pais_143:
+    descripcion: Mauricio
+  Pais_144:
+    descripcion: Mauritania
+  Pais_145:
+    descripcion: Mayotte
+  Pais_146:
+    descripcion: México
+  Pais_147:
+    descripcion: Micronesia
+  Pais_148:
+    descripcion: Moldavia
+  Pais_149:
+    descripcion: Mónaco
+  Pais_150:
+    descripcion: Mongolia
+  Pais_151:
+    descripcion: Montserrat
+  Pais_152:
+    descripcion: Mozambique
+  Pais_153:
+    descripcion: Myanmar
+  Pais_154:
+    descripcion: Namibia
+  Pais_155:
+    descripcion: Nauru
+  Pais_156:
+    descripcion: Nepal
+  Pais_157:
+    descripcion: Nicaragua
+  Pais_158:
+    descripcion: Níger
+  Pais_159:
+    descripcion: Nigeria
+  Pais_160:
+    descripcion: Niue
+  Pais_161:
+    descripcion: IslaNorfolk
+  Pais_162:
+    descripcion: Noruega
+  Pais_163:
+    descripcion: 'Nueva Caledonia'
+  Pais_164:
+    descripcion: 'Nueva Zelanda'
+  Pais_165:
+    descripcion: Omán
+  Pais_166:
+    descripcion: PaísesBajos
+  Pais_167:
+    descripcion: Pakistán
+  Pais_168:
+    descripcion: Palau
+  Pais_169:
+    descripcion: Palestina
+  Pais_170:
+    descripcion: Panamá
+  Pais_171:
+    descripcion: 'Papúa N Guinea'
+  Pais_172:
+    descripcion: Paraguay
+  Pais_173:
+    descripcion: Perú
+  Pais_174:
+    descripcion: 'Islas Pitcairn'
+  Pais_175:
+    descripcion: 'Polinesia Francesa'
+  Pais_176:
+    descripcion: Polonia
+  Pais_177:
+    descripcion: Portugal
+  Pais_178:
+    descripcion: PuertoRico
+  Pais_179:
+    descripcion: Qatar
+  Pais_180:
+    descripcion: ReinoUnido
+  Pais_181:
+    descripcion: Reunión
+  Pais_182:
+    descripcion: Ruanda
+  Pais_183:
+    descripcion: Rumania
+  Pais_184:
+    descripcion: Rusia
+  Pais_185:
+    descripcion: 'Sahara Occ'
+  Pais_186:
+    descripcion: 'Islas Salomón'
+  Pais_187:
+    descripcion: Samoa
+  Pais_188:
+    descripcion: 'Samoa Americana'
+  Pais_189:
+    descripcion: 'San Cristóbal y Nevis'
+  Pais_190:
+    descripcion: SanMarino
+  Pais_191:
+    descripcion: 'San Pedro y Miquelón'
+  Pais_192:
+    descripcion: 'S Vic y las Granadinas'
+  Pais_193:
+    descripcion: 'Santa Helena'
+  Pais_194:
+    descripcion: 'Santa Lucía'
+  Pais_195:
+    descripcion: 'S Tomé y Príncipe'
+  Pais_196:
+    descripcion: Senegal
+  Pais_197:
+    descripcion: 'Serbia y Montenegro'
+  Pais_198:
+    descripcion: Seychelles
+  Pais_199:
+    descripcion: 'Sierra Leona'
+  Pais_200:
+    descripcion: Singapur
+  Pais_201:
+    descripcion: Siria
+  Pais_202:
+    descripcion: Somalia
+  Pais_203:
+    descripcion: SriLanka
+  Pais_204:
+    descripcion: Suazilandia
+  Pais_205:
+    descripcion: Sudáfrica
+  Pais_206:
+    descripcion: Sudán
+  Pais_207:
+    descripcion: Suecia
+  Pais_208:
+    descripcion: Suiza
+  Pais_209:
+    descripcion: Surinam
+  Pais_210:
+    descripcion: 'Svalbardy Jan M'
+  Pais_211:
+    descripcion: Tailandia
+  Pais_212:
+    descripcion: Taiwán
+  Pais_213:
+    descripcion: Tanzania
+  Pais_214:
+    descripcion: Tayikistán
+  Pais_215:
+    descripcion: 'T Brit del Océ Índico'
+  Pais_216:
+    descripcion: 'T Aus Franceses'
+  Pais_217:
+    descripcion: 'Timor Oriental'
+  Pais_218:
+    descripcion: Togo
+  Pais_219:
+    descripcion: Tokelau
+  Pais_220:
+    descripcion: Tonga
+  Pais_221:
+    descripcion: 'Trinidad y Tobago'
+  Pais_222:
+    descripcion: Túnez
+  Pais_223:
+    descripcion: 'Islas Turcas y C'
+  Pais_224:
+    descripcion: Turkmenistán
+  Pais_225:
+    descripcion: Turquía
+  Pais_226:
+    descripcion: Tuvalu
+  Pais_227:
+    descripcion: Ucrania
+  Pais_228:
+    descripcion: Uganda
+  Pais_229:
+    descripcion: Uruguay
+  Pais_230:
+    descripcion: Uzbekistán
+  Pais_231:
+    descripcion: Vanuatu
+  Pais_232:
+    descripcion: Venezuela
+  Pais_233:
+    descripcion: Vietnam
+  Pais_234:
+    descripcion: 'I Vírg Británicas'
+  Pais_235:
+    descripcion: 'I Vírg de los E Unidos'
+  Pais_236:
+    descripcion: 'Wallisy Futuna'
+  Pais_237:
+    descripcion: Yemen
+  Pais_238:
+    descripcion: Yibuti
+  Pais_239:
+    descripcion: Zambia
+  Pais_240:
+    descripcion: Zimbabue
+  Pais_241:
+    descripcion: 'Gran Bretaña'
+  Pais_242:
+    descripcion: Holanda
+  Pais_243:
+    descripcion: Yugoslavia

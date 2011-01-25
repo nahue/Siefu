@@ -1,0 +1,146 @@
+
+
+#tblAcciones tr > td:nth-child(4n+4)
+{
+    float:left;
+    display:block
+}
+/* form style */
+.myform {
+	background:#333 url(/img/gradient/h300.png) repeat-x;	
+	padding:15px 20px; 
+	color:#eee;
+	width:400px;
+	margin:0 auto;
+	position:relative;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+
+
+        font-family:"Lucida Grande","Lucida Sans Unicode","bitstream vera sans","trebuchet ms",verdana,sans-serif;
+font-size:12px;
+        margin-top:20px;
+        
+} 
+
+/* nested fieldset */
+.myform fieldset {
+	border:0;
+	margin:0;
+	padding:0;
+	background:#333333 url(/tools/img/logo-medium.png) no-repeat scroll 215px 40px;	
+}
+
+/* typography */
+.myform h3 	{ color:#eee; margin-top:0px; }
+.myform p 	{ font-size:11px; }
+
+
+/* input field 
+.myform input {
+	border:1px solid #444;
+	background-color:#666;
+	padding:5px;
+	color:#ddd;
+	font-size:12px;
+	
+	/* CSS3 spicing 
+	text-shadow:1px 1px 1px #000;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;	
+}
+*/
+.myform input:focus 		{ color:#fff; background-color:#777; }
+.myform input:active 	{ background-color:#888; }
+
+
+/* button */
+.myform button {
+	outline:0;
+	border:1px solid #666;	
+}
+
+
+/* error message */
+.error {
+	height:15px;
+	background-color:#FFFE36;
+	font-size:11px;
+	border:1px solid #E1E16D;
+	padding:4px 10px;
+	color:#000;
+	display:none;	
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px; 
+	-moz-border-radius-bottomleft:0;
+	-moz-border-radius-topleft:0;	
+	-webkit-border-bottom-left-radius:0; 
+	-webkit-border-top-left-radius:0;
+	
+	-moz-box-shadow:0 0 6px #ddd;
+	-webkit-box-shadow:0 0 6px #ddd;	
+}
+
+.error p {
+	margin:0;		
+}
+
+/* field label */
+label {
+	display:block;
+	font-size:11px;
+	color:#ccc;
+}
+
+#terms label {
+	float:left;
+}
+
+#terms input {
+	margin:0 5px;
+}
+
+.escondido
+{
+   display:none;
+}
+#dniExistente form
+{
+    border-top:0px;
+}
+
+/* the overlayed element */
+.apple_overlay {
+
+	/* initially overlay is hidden */
+	display:none;
+
+	/* growing background image */
+	background-image:url(../img/overlay/white.png);
+
+	/*
+		width after the growing animation finishes
+		height is automatically calculated
+	*/
+	/*width:640px;*/
+
+	/* some padding to layout nested elements nicely  */
+	padding:35px;
+
+	/* a little styling */
+	font-size:11px;
+
+        margin-top: 40px !important;
+}
+
+/* default close button positioned on upper right corner */
+.apple_overlay .close {
+	background-image:url(../img/overlay/close.png);
+	position:absolute; right:23px; top:45px;
+        z-index:1000;
+	cursor:pointer;
+	height:27px;
+	width:27px;
+}
+

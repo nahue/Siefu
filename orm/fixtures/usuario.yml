@@ -1,0 +1,21 @@
+Usuario:
+  Usuario_1_registroush:
+    id: '1'
+    usuario: registroush
+    pass: ushuaia
+    email: 'nchavez@tierradelfuego.gov.ar'
+    nombre: Nahuel
+    apellido: Chaves
+    num_entidad: '17'
+    admin: '1'
+    Entidad: Entidad_2
+  Usuario_2_cvargas:
+    id: '2'
+    usuario: cvargas
+    pass: cvargas
+    email: 'cvargas@tierradelfuego.gov.ar'
+    nombre: Carlos
+    apellido: Vargas
+    num_entidad: '17'
+    admin: '1'
+    Entidad: Entidad_2

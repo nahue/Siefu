@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<orm-designer version="1.4.2.450">
+
+  <include name="orm\schema\schema.module.xml"/>
+
+  <project code-name="Unnamed" framework="Symfony" name="Siefu" orm="Doctrine" visSizeX="102" visSizeX2="2049" visSizeY="46" visSizeY2="1541">
+    <module-position name="NetBeansProjects\siefu\orm\schema\schema.yml" visPositionX="60" visPositionY="42"/>
+  </project>
+
+</orm-designer>

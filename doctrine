@@ -1,0 +1,32 @@
+#!/usr/bin/env php
+<?php
+//chdir(dirname(__FILE__ . "/../")); //Be sure that your current directory should be the root (folder that contains scripts) directory, I dunno why but the other options failed for me...
+require('plugins/doctrine/lib/Doctrine.php');
+
+
+spl_autoload_register(array('Doctrine', 'autoload'));
+spl_autoload_register(array('Doctrine_Core', 'modelsAutoload'));
+
+
+
+$manager = Doctrine_Manager::getInstance();
+
+$manager->setAttribute(Doctrine_Core::ATTR_MODEL_LOADING, Doctrine_Core::MODEL_LOADING_CONSERVATIVE);
+$manager->setAttribute(Doctrine_Core::ATTR_AUTOLOAD_TABLE_CLASSES, true);
+
+
+
+//$conn = Doctrine_Manager::connection('mysql://root:strato1986@localhost/siefu;unix_socket=/var/run/mysqld/mysqld.sock');
+$conn = Doctrine_Manager::connection('mysql://root:strato1986@localhost/siefu');
+
+
+ $config = array('data_fixtures_path'  =>  __DIR__.'/orm/fixtures',
+                'models_path'         =>  __DIR__.'/orm/models',
+                'migrations_path'     =>  __DIR__.'/orm/migrations',
+                'sql_path'            =>  __DIR__.'/orm/sql',
+                'yaml_schema_path'    =>  __DIR__.'/orm/schema',
+				'generateTableClasses'	=> false
+);
+
+$cli = new Doctrine_Cli($config);
+$cli->run($_SERVER['argv']);
